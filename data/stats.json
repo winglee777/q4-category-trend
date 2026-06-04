@@ -1,0 +1,52 @@
+{
+  "粮油调味速食": {
+    "count": 1201,
+    "total_sales": 9411720,
+    "total_gmv": 522412021.88
+  },
+  "酒类": {
+    "count": 1902,
+    "total_sales": 1793216,
+    "total_gmv": 453309114.12
+  },
+  "生鲜": {
+    "count": 1094,
+    "total_sales": 5364397,
+    "total_gmv": 385191340.15
+  },
+  "传统滋补": {
+    "count": 578,
+    "total_sales": 4074211,
+    "total_gmv": 352026977.79
+  },
+  "保健食品/营养补充": {
+    "count": 2004,
+    "total_sales": 2186506,
+    "total_gmv": 315546716.52
+  },
+  "休闲食品": {
+    "count": 765,
+    "total_sales": 4208296,
+    "total_gmv": 254497164.48
+  },
+  "饮料冲调": {
+    "count": 479,
+    "total_sales": 2930174,
+    "total_gmv": 209067145.86
+  },
+  "乳品冷饮": {
+    "count": 368,
+    "total_sales": 2185222,
+    "total_gmv": 201204605.69
+  },
+  "宠物生活": {
+    "count": 1063,
+    "total_sales": 390442,
+    "total_gmv": 30161526.52
+  },
+  "茗茶": {
+    "count": 58,
+    "total_sales": 226441,
+    "total_gmv": 17126053.86
+  }
+}

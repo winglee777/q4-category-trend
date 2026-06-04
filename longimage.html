@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>冬令食饮 · 25年Q4品类趋势洞察</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,500&family=Outfit:wght@400;500;600;700;800;900&family=Noto+Serif+SC:wght@500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* 基础底色 - 奶油米 Editorial */
+  --bg:#F4F1EA;
+  --paper:#FFFFFF;
+  --paper-warm:#FAF7F0;
+  --ink:#1A1714;
+  --sub:#4A453E;
+  --mute:#8C857C;
+  --bd:#E5DFD2;
+  --bd-light:#EFEAE0;
+
+  /* 主题色 - 5 节点中国传统色（节气意象） */
+  --primary:#B8392E;       /* 朱砂 - 盛夏7-8月 */
+  --primary-soft:#F7E5E1;
+  --olive:#5A8A7B;         /* 竹青 - 小暑大暑 */
+  --olive-soft:#E8EFEC;
+  --copper:#C68A2E;        /* 鎏金 - 中秋9月上 */
+  --copper-soft:#F8EDDA;
+  --plum:#8B5A3C;          /* 秋秫 - 白露秋分 */
+  --plum-soft:#F2E7DD;
+  --indigo:#2D3942;        /* 黛墨 - 通用品类 */
+  --indigo-soft:#E5E8EC;
+
+  /* 兼容旧变量名 → 映射到新色 */
+  --accent:var(--primary);
+  --accent-bg:var(--primary-soft);
+  --warn:var(--copper);
+  --warn-bg:var(--copper-soft);
+  --blue:var(--indigo);
+  --blue-bg:var(--indigo-soft);
+  --gold:var(--copper);
+  --gold-bg:var(--copper-soft);
+  --red:var(--plum);
+  --red-bg:var(--plum-soft);
+  --orange:var(--primary);
+  --orange-bg:var(--primary-soft);
+  --purple:var(--olive);
+  --purple-bg:var(--olive-soft);
+
+  --shadow-sm:0 1px 2px rgba(26,23,20,.04);
+  --shadow:0 2px 6px rgba(26,23,20,.05),0 12px 32px rgba(26,23,20,.04);
+
+  --serif:'Fraunces','Noto Serif SC',Georgia,serif;
+  --sans:'Outfit','Noto Sans SC',-apple-system,BlinkMacSystemFont,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{font-family:var(--sans);background:var(--bg);color:var(--ink);font-size:14px;line-height:1.65;letter-spacing:.005em;-webkit-font-smoothing:antialiased}
+body{padding:0 0 60px}
+
+/* ================== HERO · Editorial 风格 ================== */
+.hero{
+  position:relative;
+  background:var(--paper-warm);
+  padding:72px 64px 56px;
+  border-bottom:1px solid var(--bd);
+  overflow:hidden;
+}
+.hero::before{
+  content:'Q4';
+  position:absolute;right:-30px;top:-50px;
+  font-family:var(--serif);
+  font-style:italic;
+  font-size:340px;font-weight:900;
+  color:rgba(26,23,20,.04);
+  letter-spacing:-.04em;
+  line-height:1;
+  pointer-events:none;
+}
+.hero::after{
+  content:'';
+  position:absolute;left:64px;top:64px;
+  width:36px;height:2px;background:var(--ink);
+}
+.hero-eyebrow{
+  position:relative;z-index:1;
+  font-family:var(--sans);
+  font-size:11px;font-weight:700;letter-spacing:.28em;
+  color:var(--primary);
+  text-transform:uppercase;
+  margin-bottom:14px;margin-top:8px;
+}
+.hero h1{
+  position:relative;z-index:1;
+  font-family:var(--serif);
+  font-weight:900;
+  font-size:46px;
+  line-height:1.15;
+  letter-spacing:-.01em;
+  color:var(--ink);
+  margin-bottom:8px;
+  max-width:920px;
+}
+.hero h1 em{
+  font-style:italic;font-weight:500;color:var(--primary);
+}
+.hero-sub{
+  position:relative;z-index:1;
+  font-family:var(--serif);
+  font-style:italic;
+  font-weight:500;
+  font-size:18px;
+  color:var(--sub);
+  margin-bottom:28px;
+  max-width:760px;
+}
+
+/* 金句副标 */
+.hero-tagline{
+  position:relative;z-index:1;
+  margin:0 0 28px;
+  padding:18px 24px 18px 26px;
+  background:var(--paper);
+  border-left:5px solid var(--primary);
+  border-radius:0 8px 8px 0;
+  box-shadow:var(--shadow-sm);
+  max-width:920px;
+}
+.hero-tagline .tg-main{
+  font-family:var(--serif);
+  font-weight:900;
+  font-size:26px;
+  letter-spacing:.04em;
+  color:var(--ink);
+  line-height:1.35;
+}
+.hero-tagline .tg-main b{
+  font-style:italic;
+  font-weight:900;
+  position:relative;
+  padding:0 2px;
+}
+.hero-tagline .tg-main b.b-olive{color:var(--olive)}      /* 竹青 · 消夏暑 */
+.hero-tagline .tg-main b.b-primary{color:var(--primary)}  /* 朱砂 · 尝时鲜 */
+.hero-tagline .tg-main b.b-copper{color:var(--copper)}    /* 鎏金 · 送团圆 */
+.hero-tagline .tg-main b.b-plum{color:var(--plum)}        /* 秋秫 · 补秋膘 */
+.hero-tagline .tg-main b.b-indigo{color:var(--indigo)}    /* 黛墨 · 守自律 */
+.hero-tagline .tg-main .dot-sep{
+  display:inline-block;
+  width:4px;height:4px;border-radius:50%;
+  background:var(--bd);
+  vertical-align:middle;
+  margin:0 12px 4px;
+}
+.hero-tagline .tg-sub{
+  display:block;
+  margin-top:8px;
+  font-family:var(--sans);
+  font-size:13px;font-weight:500;
+  letter-spacing:.04em;
+  color:var(--mute);
+}
+.hero-tagline .tg-sub b{color:var(--ink);font-weight:700}
+
+/* hero-meta：Editorial 元数据条 */
+.hero-meta{
+  position:relative;z-index:1;
+  display:flex;flex-wrap:wrap;gap:0 32px;
+  padding-top:18px;
+  border-top:1px solid var(--bd);
+  max-width:920px;
+}
+.hero-meta .mi{
+  display:flex;flex-direction:column;gap:2px;
+  padding:6px 0;
+}
+.hero-meta .mi .lbl{
+  font-family:var(--sans);
+  font-size:10px;font-weight:700;letter-spacing:.18em;
+  color:var(--mute);text-transform:uppercase;
+}
+.hero-meta .mi .val{
+  font-family:var(--serif);
+  font-weight:700;font-size:14px;
+  color:var(--ink);letter-spacing:.01em;
+}
+.hero-meta .mi .val b{
+  color:var(--primary);font-style:italic;
+}
+
+/* ================== Container ================== */
+.container{max-width:1480px;margin:0 auto;padding:48px 64px 0}
+
+/* Section header - Editorial */
+.section-hd{
+  display:flex;align-items:flex-end;gap:18px;
+  margin-bottom:24px;padding-bottom:14px;
+  border-bottom:2px solid var(--ink);
+}
+.section-hd .num{
+  font-family:var(--serif);font-style:italic;
+  font-size:48px;font-weight:900;line-height:.9;
+  color:var(--primary);
+}
+.section-hd .title{
+  font-family:var(--serif);
+  font-size:26px;font-weight:900;
+  letter-spacing:.005em;
+  color:var(--ink);
+}
+.section-hd .desc{
+  font-family:var(--sans);
+  font-size:12px;color:var(--mute);font-weight:500;
+  margin-left:auto;
+  letter-spacing:.04em;
+  padding-bottom:6px;
+}
+
+/* ================== 时令营销地图 ================== */
+.overall-card{
+  background:var(--paper);
+  border:1px solid var(--bd);
+  border-radius:14px;
+  padding:0;margin-bottom:48px;
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+.map-hd{
+  background:var(--ink);
+  color:#fff;
+  padding:30px 36px 24px;
+  position:relative;
+  overflow:hidden;
+}
+.map-hd::before{
+  content:'';position:absolute;
+  left:0;top:0;width:100%;height:1px;
+  background:rgba(255,255,255,.18);
+}
+.map-hd::after{
+  content:'';position:absolute;
+  left:32px;top:0;width:36px;height:2px;
+  background:var(--primary);
+}
+.map-hd .mh-eyebrow{
+  font-family:var(--sans);
+  font-size:10px;font-weight:700;letter-spacing:.28em;
+  color:rgba(255,255,255,.5);
+  text-transform:uppercase;
+  margin-bottom:8px;
+}
+.map-hd .mh-title{
+  font-family:var(--serif);
+  font-size:28px;font-weight:900;letter-spacing:.005em;
+  margin-bottom:6px;
+}
+.map-hd .mh-sub{
+  font-family:var(--sans);
+  font-size:13.5px;color:rgba(255,255,255,.7);font-weight:500;
+  letter-spacing:.01em;
+}
+.map-hd .mh-stats{display:flex;gap:32px;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)}
+.map-hd .mh-stat{
+  display:flex;flex-direction:column;gap:2px;
+}
+.map-hd .mh-stat .ms-lbl{
+  font-family:var(--sans);
+  font-size:10px;font-weight:700;letter-spacing:.2em;
+  color:rgba(255,255,255,.45);text-transform:uppercase;
+}
+.map-hd .mh-stat .ms-val{
+  font-family:var(--serif);
+  font-style:italic;font-weight:900;font-size:22px;
+  color:var(--primary);
+  letter-spacing:.02em;
+}
+
+/* 转置表格 */
+.map-table{width:100%;border-collapse:collapse;table-layout:fixed}
+.map-table col.col-dim{width:108px}
+.map-table col.col-stable{width:17%}
+
+/* 表头 */
+.map-table thead th{padding:0;border-bottom:2px solid var(--ink);vertical-align:top}
+.map-table thead th.dim-head{
+  background:var(--paper-warm);
+  color:var(--sub);
+  padding:18px 14px;
+  font-family:var(--sans);
+  font-size:10.5px;font-weight:800;letter-spacing:.18em;
+  text-align:left;text-transform:uppercase;
+}
+.season-head{
+  padding:22px 18px 16px;
+  color:var(--ink);
+  display:flex;flex-direction:column;gap:6px;
+  height:100%;min-height:200px;
+  position:relative;
+}
+/* 顶部 6px 色带——节气色作为「视觉提示」而非「色块占领」 */
+.season-head::before{
+  content:'';position:absolute;
+  left:0;top:0;width:100%;height:6px;
+  background:var(--bar-color, var(--primary));
+}
+/* 列与列之间的呼吸缝（1px 极浅边）*/
+.season-head::after{
+  content:'';position:absolute;
+  left:0;top:6px;bottom:0;
+  width:1px;background:rgba(0,0,0,.04);
+}
+.season-head .sh-stamp{
+  display:inline-flex;align-items:center;gap:7px;
+  font-family:var(--sans);
+  font-size:9.5px;font-weight:700;letter-spacing:.16em;
+  color:var(--mute);
+  text-transform:uppercase;
+  padding-bottom:2px;
+}
+.season-head .sh-stamp .stamp-cn{
+  font-family:var(--serif);
+  font-size:11px;font-weight:700;
+  letter-spacing:.05em;
+  color:var(--bar-color, var(--primary));
+  background:rgba(255,255,255,.7);
+  padding:1px 7px;
+  border:1px solid var(--bar-color, var(--primary));
+  border-radius:1px;
+}
+/* 概念词（主标题）—— 节气色大字 */
+.season-head .sh-theme{
+  font-family:var(--serif);
+  font-size:22px;font-weight:900;
+  line-height:1.22;
+  letter-spacing:.005em;
+  color:var(--bar-color, var(--primary));
+  margin:2px 0 4px;
+}
+/* 节气名（副标）—— 小字 mute */
+.season-head .sh-name{
+  font-family:var(--sans);
+  font-size:11.5px;font-weight:700;
+  letter-spacing:.16em;
+  color:var(--mute);
+  text-transform:none;
+}
+.season-head .sh-name::before{
+  content:'';display:inline-block;
+  width:14px;height:1px;
+  background:var(--mute);
+  vertical-align:middle;
+  margin:0 7px 3px 0;
+}
+/* 日期 —— 横向箭头时间轴 */
+.season-head .sh-date{
+  font-family:var(--sans);
+  font-size:11.5px;font-weight:600;
+  color:var(--sub);
+  line-height:1.4;letter-spacing:.04em;
+  display:flex;align-items:center;gap:8px;
+  margin-top:2px;
+}
+.season-head .sh-date .sh-axis{
+  flex:1;height:1px;
+  background:linear-gradient(to right, var(--bar-color, var(--primary)) 0%, var(--bar-color, var(--primary)) 100%);
+  position:relative;
+  opacity:.4;
+}
+.season-head .sh-date .sh-axis::before{
+  content:'';position:absolute;
+  left:0;top:50%;transform:translateY(-50%);
+  width:5px;height:5px;border-radius:50%;
+  background:var(--bar-color, var(--primary));
+}
+.season-head .sh-date .sh-axis::after{
+  content:'';position:absolute;
+  right:0;top:50%;transform:translate(0,-50%) rotate(45deg);
+  width:6px;height:6px;
+  border-top:1.5px solid var(--bar-color, var(--primary));
+  border-right:1.5px solid var(--bar-color, var(--primary));
+  margin-right:-1px;
+}
+.season-head .sh-date .sh-d-from,
+.season-head .sh-date .sh-d-to{
+  font-family:var(--serif);
+  font-size:12.5px;font-weight:700;
+  color:var(--ink);letter-spacing:.01em;
+  white-space:nowrap;
+}
+.season-head .sh-date .sh-d-tag{
+  display:inline-block;
+  font-size:10px;font-weight:600;
+  color:var(--bar-color, var(--primary));
+  background:rgba(0,0,0,.02);
+  padding:1px 6px;border-radius:2px;
+  margin-left:4px;letter-spacing:.05em;
+}
+.season-head .sh-gmv{
+  margin-top:auto;
+  padding-top:10px;
+  border-top:1px dashed rgba(0,0,0,.08);
+  font-family:var(--serif);
+  font-style:italic;
+  font-size:18px;font-weight:900;
+  letter-spacing:.02em;
+  color:var(--bar-color, var(--primary));
+}
+.season-head .sh-gmv .gl{
+  font-family:var(--sans);
+  font-style:normal;
+  font-size:9.5px;font-weight:700;
+  color:var(--mute);
+  margin-right:8px;letter-spacing:.18em;
+  text-transform:uppercase;
+}
+
+/* 表体 */
+.map-table tbody td{
+  padding:16px 14px;
+  border-bottom:1px solid var(--bd-light);
+  border-right:1px solid var(--bd-light);
+  vertical-align:top;
+  line-height:1.75;
+  font-size:14.5px;
+  color:var(--sub);
+}
+.map-table tbody td:last-child{border-right:none}
+.map-table tbody td.dim-cell{
+  background:var(--paper-warm);
+  font-family:var(--serif);
+  font-weight:900;
+  color:var(--ink);
+  font-size:15px;
+  border-right:2px solid var(--ink);
+  position:relative;
+  padding-left:18px;
+  letter-spacing:.02em;
+}
+.map-table tbody td.dim-cell::before{
+  content:'';position:absolute;left:0;top:50%;
+  transform:translateY(-50%);
+  width:4px;height:20px;
+  background:var(--primary);
+  border-radius:0 2px 2px 0;
+}
+
+/* 关键洞察行（高亮） */
+.map-table tbody tr.row-highlight td:not(.dim-cell){
+  background:var(--paper-warm);
+  font-weight:600;
+  color:var(--ink);
+  font-size:14px;
+  line-height:1.75;
+  letter-spacing:.005em;
+}
+.map-table tbody tr.row-highlight td.dim-cell{
+  background:var(--primary);color:#fff;
+}
+.map-table tbody tr.row-highlight td.dim-cell::before{
+  background:#fff;
+}
+.map-table tbody tr.row-highlight td:not(.dim-cell) b{
+  color:var(--primary);font-weight:900;
+}
+/* 营销建议行 —— 分行显示 + 字号放大 */
+.map-table tbody tr.row-action td:not(.dim-cell){
+  font-size:14px;
+  color:var(--sub);
+  line-height:1.85;font-style:normal;
+  padding:18px 14px;
+}
+.map-table tbody tr.row-action td:not(.dim-cell) b{
+  color:var(--ink);font-weight:700;
+}
+.map-table tbody tr.row-action .ma-line{
+  display:flex;align-items:flex-start;gap:8px;
+  margin-bottom:6px;
+}
+.map-table tbody tr.row-action .ma-line:last-child{margin-bottom:0}
+.map-table tbody tr.row-action .ma-line .ma-bullet{
+  flex-shrink:0;
+  display:inline-block;
+  width:14px;height:14px;border-radius:3px;
+  background:var(--primary-soft);
+  color:var(--primary);
+  font-size:9px;font-weight:900;
+  text-align:center;line-height:14px;
+  font-family:var(--serif);font-style:italic;
+  margin-top:5px;
+}
+.map-table tbody tr.row-action .ma-line .ma-text{flex:1}
+.map-table tbody tr.row-action .ma-chip{
+  display:inline-block;
+  background:var(--paper-warm);
+  border:1px solid var(--bd);
+  color:var(--ink);
+  font-size:13px;font-weight:600;
+  padding:1px 8px;
+  border-radius:3px;
+  margin:0 2px;
+  letter-spacing:.005em;
+}
+
+.map-tag{
+  display:inline-block;
+  font-family:var(--sans);
+  font-size:14px;font-weight:600;
+  padding:5px 12px;
+  border-radius:5px;
+  margin:3px 4px 3px 0;
+  white-space:nowrap;line-height:1.4;
+  letter-spacing:.005em;
+  max-width:100%;
+  overflow-wrap:break-word;
+  word-break:break-word;
+}
+
+/* 通用品类列特殊背景 */
+.map-table thead th.stable-head .season-head{
+  background:var(--indigo-soft) !important;
+}
+.map-table tbody td.stable-cell{background:#FAFAFB !important}
+
+/* 关键洞察注脚 */
+.notes-bar{
+  padding:24px 32px;
+  background:var(--paper-warm);
+  border-top:1px dashed var(--bd);
+}
+.notes-bar .nb-title{
+  font-family:var(--sans);
+  font-size:10.5px;font-weight:800;
+  color:var(--primary);
+  letter-spacing:.22em;
+  margin-bottom:14px;text-transform:uppercase;
+}
+.notes-bar .nb-list{display:flex;flex-direction:column;gap:9px}
+.notes-bar .nb-item{
+  font-family:var(--sans);
+  font-size:13px;color:var(--sub);
+  line-height:1.7;padding-left:22px;position:relative;
+}
+.notes-bar .nb-item::before{
+  content:'※';
+  position:absolute;left:2px;top:-1px;
+  color:var(--primary);font-weight:900;font-size:14px;
+}
+.notes-bar .nb-item b{color:var(--ink);font-weight:700}
+
+/* ================== 品类洞察卡片 ================== */
+.insight-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;margin-bottom:48px;
+}
+.insight-card{
+  background:var(--paper);
+  border:1px solid var(--bd);
+  border-radius:12px;
+  padding:24px 26px;
+  box-shadow:var(--shadow-sm);
+  position:relative;
+  transition:all .2s;
+}
+.insight-card::before{
+  content:'';position:absolute;left:0;top:24px;
+  width:3px;height:32px;background:var(--primary);
+  border-radius:0 2px 2px 0;
+}
+.ic-hd{
+  display:flex;align-items:center;gap:12px;
+  margin-bottom:14px;padding-bottom:14px;
+  border-bottom:1px dashed var(--bd);
+}
+.ic-hd .emoji{font-size:28px}
+.ic-hd .cat-name{
+  font-family:var(--serif);
+  font-size:22px;font-weight:900;
+  color:var(--ink);letter-spacing:.005em;
+}
+.ic-hd .rank{
+  margin-left:auto;
+  font-family:var(--serif);font-style:italic;
+  font-size:13px;font-weight:900;
+  padding:5px 11px;border-radius:5px;
+  background:var(--ink);color:#fff;
+  letter-spacing:.02em;
+}
+
+.ic-gmv-bar{
+  display:flex;align-items:baseline;gap:12px;
+  margin-bottom:14px;
+  font-family:var(--sans);
+  font-size:12px;color:var(--mute);
+}
+.ic-gmv-bar .gmv-num{
+  font-family:var(--serif);font-style:italic;
+  font-size:30px;font-weight:900;
+  color:var(--primary);
+  letter-spacing:.005em;line-height:1;
+}
+.ic-gmv-bar .gmv-pct{
+  font-family:var(--serif);
+  font-size:14px;font-weight:700;
+  color:var(--copper);
+  background:var(--copper-soft);
+  padding:3px 9px;border-radius:4px;
+}
+.ic-gmv-bar .gmv-sku{
+  font-size:11.5px;color:var(--mute);font-weight:500;
+  letter-spacing:.04em;
+}
+
+.ic-core-insight{
+  background:var(--paper-warm);
+  border:1px solid var(--bd);
+  border-left:4px solid var(--primary);
+  border-radius:8px;
+  padding:14px 16px;margin-bottom:14px;
+  font-family:var(--sans);
+  font-size:14px;font-weight:600;
+  color:var(--ink);line-height:1.7;
+  letter-spacing:.005em;
+}
+.ic-core-insight::before{
+  content:'';
+  display:inline-block;
+  width:6px;height:6px;
+  background:var(--primary);
+  border-radius:50%;
+  margin-right:8px;vertical-align:middle;
+  margin-bottom:2px;
+}
+
+.ic-tags{display:flex;flex-direction:column;gap:10px}
+.ic-tag-group{
+  background:var(--olive-soft);
+  padding:12px 16px;
+  border-radius:8px;
+  border-left:3px solid var(--olive);
+}
+.ic-tag-group:nth-child(2){
+  background:var(--copper-soft);
+  border-left-color:var(--copper);
+}
+.ic-tag-group:nth-child(3){
+  background:var(--plum-soft);
+  border-left-color:var(--plum);
+}
+.ic-tag-hd{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.ic-tag-name{
+  font-family:var(--sans);
+  font-size:10px;font-weight:800;
+  color:var(--olive);
+  letter-spacing:.22em;text-transform:uppercase;
+}
+.ic-tag-group:nth-child(2) .ic-tag-name{color:var(--copper)}
+.ic-tag-group:nth-child(3) .ic-tag-name{color:var(--plum)}
+.ic-tag-title{
+  font-family:var(--serif);
+  font-size:14px;font-weight:800;
+  color:var(--ink);line-height:1.5;
+  margin-bottom:6px;letter-spacing:.005em;
+}
+.ic-tag-points{
+  list-style:none;padding:0;margin:0;
+  display:flex;flex-direction:column;gap:4px;
+}
+.ic-tag-points li{
+  font-family:var(--sans);
+  font-size:12.5px;color:var(--sub);
+  line-height:1.6;padding-left:14px;
+  position:relative;font-weight:400;
+}
+.ic-tag-points li::before{
+  content:'';position:absolute;left:0;top:8px;
+  width:5px;height:5px;border-radius:50%;
+  background:var(--olive);
+}
+.ic-tag-group:nth-child(2) .ic-tag-points li::before{background:var(--copper)}
+.ic-tag-group:nth-child(3) .ic-tag-points li::before{background:var(--plum)}
+.ic-tag-points li b{color:var(--ink);font-weight:700}
+
+.footer{
+  text-align:center;
+  padding:32px 20px 0;
+  color:var(--mute);font-size:11px;
+  letter-spacing:.18em;
+  font-family:var(--sans);font-weight:500;
+  text-transform:uppercase;
+}
+.footer b{color:var(--primary);font-weight:700;font-style:italic;font-family:var(--serif)}
+
+/* ================== 02 · 分品类 TOP500 商品排行榜（Editorial 风） ================== */
+.filter-bar{background:var(--paper);border:1px solid var(--bd);border-radius:12px;padding:16px 20px;margin-bottom:16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;box-shadow:var(--shadow);position:sticky;top:0;z-index:10}
+.filter-label{font-size:11px;font-weight:700;color:var(--sub);letter-spacing:.12em;text-transform:uppercase;font-family:var(--sans)}
+.cat-chips{display:flex;gap:6px;flex-wrap:wrap;flex:1}
+.chip{padding:6px 14px;border:1px solid var(--bd);border-radius:20px;font-size:12px;font-weight:600;background:var(--paper);cursor:pointer;transition:all .15s ease;color:var(--sub);user-select:none;font-family:var(--sans)}
+.chip:hover{border-color:var(--primary);color:var(--primary)}
+.chip.active{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:700}
+.chip .cnt{font-family:var(--serif);font-style:italic;font-size:10px;opacity:.65;margin-left:4px;font-weight:700}
+.search-box{flex-shrink:0;position:relative}
+.search-box input{width:220px;padding:8px 14px 8px 32px;border:1px solid var(--bd);border-radius:8px;font-size:12px;font-family:var(--sans);background:var(--paper-warm);outline:none;transition:border-color .15s;color:var(--ink)}
+.search-box input:focus{border-color:var(--primary);background:var(--paper)}
+.search-box::before{content:'🔍';position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:12px;opacity:.55}
+.sort-select{padding:8px 12px;border:1px solid var(--bd);border-radius:8px;font-size:12px;background:var(--paper-warm);font-family:var(--sans);cursor:pointer;color:var(--sub);font-weight:600}
+.sort-select:focus{outline:none;border-color:var(--primary)}
+.dm-tag{display:inline-block;padding:3px 9px;border-radius:99px;font-size:10.5px;font-weight:600;white-space:nowrap;letter-spacing:.02em}
+.dm-tag.dm-yes{background:var(--olive-soft);color:var(--olive);border:1px solid #a8c8bd}
+.dm-tag.dm-no{background:var(--primary-soft);color:var(--primary);border:1px solid #e8b9b3}
+.table-wrap{background:var(--paper);border:1px solid var(--bd);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}
+.summary-bar{padding:12px 20px;background:var(--paper-warm);border-bottom:1px solid var(--bd);font-size:12px;color:var(--sub);display:flex;gap:18px;flex-wrap:wrap;font-family:var(--sans)}
+.summary-bar b{color:var(--ink);font-family:var(--serif);font-style:italic;font-weight:700}
+.rank-table{width:100%;border-collapse:collapse;font-size:12px;table-layout:fixed}
+.rank-table thead th{background:var(--paper-warm);padding:12px 10px;text-align:left;font-weight:700;font-size:10.5px;color:var(--mute);border-bottom:1.5px solid var(--bd);letter-spacing:.14em;text-transform:uppercase;font-family:var(--sans)}
+.rank-table tbody td{padding:10px 10px;border-bottom:1px solid var(--bd-light);vertical-align:middle;font-family:var(--sans)}
+.rank-table tbody tr:hover{background:var(--paper-warm)}
+.col-rank{width:50px;text-align:center;font-family:var(--serif);font-style:italic;font-weight:900;color:var(--mute);font-size:14px}
+.col-rank.top3{color:var(--primary)}
+.col-img{width:60px}
+.col-img img{width:48px;height:48px;object-fit:cover;border-radius:6px;background:var(--bd-light);border:1px solid var(--bd-light)}
+.col-name .pn{font-size:12px;color:var(--ink);font-weight:500;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.col-cat{width:130px}
+.cat-tag{display:inline-block;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;white-space:nowrap;letter-spacing:.02em}
+.cat-tag[data-cat="生鲜"]{background:var(--primary-soft);color:var(--primary)}
+.cat-tag[data-cat="休闲食品"]{background:var(--copper-soft);color:var(--copper)}
+.cat-tag[data-cat="传统滋补"]{background:var(--plum-soft);color:var(--plum)}
+.cat-tag[data-cat="饮料冲调"]{background:var(--indigo-soft);color:var(--indigo)}
+.cat-tag[data-cat="乳品冷饮"]{background:var(--olive-soft);color:var(--olive)}
+.cat-tag[data-cat="酒类"]{background:var(--plum-soft);color:var(--plum)}
+.cat-tag[data-cat="粮油调味"]{background:var(--olive-soft);color:var(--olive)}
+.cat-tag[data-cat="保健食品/营养补充"]{background:var(--indigo-soft);color:var(--indigo)}
+.cat-tag[data-cat="茗茶"]{background:var(--olive-soft);color:var(--olive)}
+.cat-tag[data-cat="宠物生活"]{background:var(--copper-soft);color:var(--copper)}
+.col-price{width:90px;font-size:11px;color:var(--sub);font-family:var(--serif);font-weight:600}
+.col-shop{width:140px;font-size:11px;color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.col-sales{width:80px;text-align:right;font-family:var(--serif);font-weight:700;color:var(--primary);font-size:13px;font-style:italic}
+.col-gmv{width:100px;text-align:right;font-family:var(--serif);font-weight:700;color:var(--ink);font-size:13px;font-style:italic}
+.col-live{width:80px;text-align:right;font-family:var(--serif);font-weight:600;color:var(--olive);font-size:12px;font-style:italic}
+.pager{padding:16px 20px;display:flex;justify-content:center;align-items:center;gap:10px;border-top:1px solid var(--bd);background:var(--paper-warm)}
+.pager button{padding:7px 14px;border:1px solid var(--bd);border-radius:6px;background:var(--paper);font-size:12px;cursor:pointer;font-family:var(--sans);font-weight:600;color:var(--sub);transition:all .15s}
+.pager button:hover:not(:disabled){border-color:var(--primary);color:var(--primary)}
+.pager button:disabled{opacity:.4;cursor:not-allowed}
+.pager .page-info{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--ink);font-weight:700;margin:0 12px}
+.empty-row{text-align:center;padding:50px;color:var(--mute);font-size:13px}
+
+/* 对外单图模式：仅展示营销地图 */
+body.map-only .hero,
+body.map-only .section-hd,
+body.map-only .insight-grid,
+body.map-only .filter-bar,
+body.map-only .table-wrap,
+body.map-only .footer{display:none !important}
+body.map-only .container{padding:24px}
+body.map-only{background:var(--bg)}
+
+@media(max-width:900px){
+  .container{padding:24px}
+  .insight-grid{grid-template-columns:1fr}
+  .hero{padding:36px 24px}
+  .hero h1{font-size:32px}
+  .hero-tagline .tg-main{font-size:20px}
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-eyebrow">Q4 / 2025 · Category Trend Report</div>
+  <h1>冬令食饮 <em>·</em> 25 年 Q4 品类趋势洞察</h1>
+  <div class="hero-sub">从双11到年货筹备，3 个时令窗口 + 1 条通用品类，看清 Q4 食饮在视频号的消费心智地图</div>
+
+  <div class="hero-tagline">
+    <div class="tg-main">Q4 四件事：<b class="b-copper">抢双11</b><span class="dot-sep"></span><b class="b-plum">补暖冬</b><span class="dot-sep"></span><b class="b-primary">囤年货</b><span class="dot-sep"></span><b class="b-indigo">守自律</b></div>
+    <div class="tg-sub">3 个节令节奏 × 1 条通用品类线 = <b>27.4 亿 GMV</b> 的消费心智地图，<b>9,512 SKU</b> 在 Q4 写下的 4 个动词</div>
+  </div>
+
+  <div class="hero-meta">
+    <div class="mi">
+      <div class="lbl">Period</div>
+      <div class="val"><b>2025.10.01 — 2025.12.31</b> · Q4 全季度</div>
+    </div>
+    <div class="mi">
+      <div class="lbl">Solar Terms</div>
+      <div class="val">寒露 → 霜降 → 立冬 → 小雪 → 大雪 → 冬至</div>
+    </div>
+    <div class="mi">
+      <div class="lbl">Data Source</div>
+      <div class="val">视频号小店全域 TOP 商品 · <b>9,512 SKU</b> · GMV <b>¥27.4 亿</b></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- 时令营销地图 -->
+<div class="overall-card" id="overall-card"></div>
+
+<div class="section-hd">
+  <div class="num">01</div>
+  <div class="title">8 大品类趋势洞察</div>
+  <div class="desc">按 GMV 降序 · 核心洞察 × 品线 × 场景功效 × 卖点</div>
+</div>
+
+<div class="insight-grid" id="insight-grid"></div>
+
+<div class="section-hd" style="margin-top:48px">
+  <div class="num">02</div>
+  <div class="title">分品类商品排行榜</div>
+  <div class="desc">点击品类切换 · 支持搜索 / 多维排序 · 中长尾数据请联系 wingsdli</div>
+</div>
+
+<div class="filter-bar">
+  <span class="filter-label">品类</span>
+  <div class="cat-chips" id="cat-chips"></div>
+  <div class="search-box"><input type="text" id="search-input" placeholder="搜索商品名称 / 店铺…"></div>
+  <select class="sort-select" id="dm-select">
+    <option value="all">全域通 全部</option>
+    <option value="yes">🟢 已开通</option>
+    <option value="no">🔴 未开通</option>
+  </select>
+  <select class="sort-select" id="sort-select">
+    <option value="rank">综合排行</option>
+    <option value="sales">销量↓</option>
+    <option value="gmv">销售额↓</option>
+    <option value="live_sales">直播销量↓</option>
+  </select>
+</div>
+
+<div class="table-wrap">
+  <div class="summary-bar" id="summary-bar"></div>
+  <table class="rank-table">
+    <colgroup>
+      <col style="width:50px"><col style="width:60px"><col><col style="width:130px"><col style="width:100px"><col style="width:90px"><col style="width:140px"><col style="width:80px"><col style="width:100px"><col style="width:80px">
+    </colgroup>
+    <thead>
+      <tr><th>排行</th><th>主图</th><th>商品名称</th><th>品类</th><th>全域通</th><th>价格</th><th>来源店铺</th><th>销量</th><th>销售额</th><th>直播销量</th></tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="pager" id="pager"></div>
+</div>
+
+</div>
+
+<div class="footer">冬令食饮 <b>· Q4 2025 ·</b> 数据 by 友望 / 分析 by Wing</div>
+
+<script>
+let RECORDS = [];
+let INSIGHTS = {};
+let OVERALL = {};
+let STATS = {};
+let CATS = [];
+const CAT_EMOJI = {
+  '生鲜':'🥬','休闲食品':'🍞','酒类':'🍻','传统滋补':'🍄',
+  '粮油调味':'🍚','饮料冲调':'☕','乳品冷饮':'🥛',
+  '保健食品/营养补充':'💊','宠物生活':'🐾','茗茶':'🍵'
+};
+const TAG_ORDER = ['品类品线','场景与功效','关键卖点'];
+
+async function loadData(){
+  const [recs, ins, ovr, sts] = await Promise.all([
+    fetch('./data/records.json').then(r=>r.json()),
+    fetch('./data/insights.json').then(r=>r.json()),
+    fetch('./data/overall.json').then(r=>r.json()),
+    fetch('./data/stats.json').then(r=>r.json())
+  ]);
+  RECORDS = recs;
+  INSIGHTS = ins;
+  OVERALL = ovr;
+  STATS = sts;
+  CATS = Object.keys(STATS).sort((a,b)=>(STATS[b]?.total_gmv||0)-(STATS[a]?.total_gmv||0));
+}
+
+const fmtMoney = n => '¥'+(n>=100000000? (n/100000000).toFixed(2)+'亿' : n>=10000? (n/10000).toFixed(1)+'w' : n.toLocaleString());
+
+function renderOverall(){
+  const card = document.getElementById('overall-card');
+  const O = OVERALL;
+  if(!O || !O.nodes) { card.innerHTML='<div style="padding:40px;text-align:center;color:var(--mute)">数据格式错误</div>'; return; }
+
+  const cols = [...O.nodes];
+  if(O['全年_stable']) cols.push({...O['全年_stable'], _stable:true});
+
+  // 维度 → 配色映射（食饮 5 节点专色）
+  const dimColor = {
+    '品类':       {bg:'var(--olive-soft)',   fg:'var(--olive)'},
+    '核心品':     {bg:'var(--primary-soft)', fg:'var(--primary)'},
+    '场景':       {bg:'var(--copper-soft)',  fg:'var(--copper)'},
+    '功效':       {bg:'var(--plum-soft)',    fg:'var(--plum)'},
+    '卖点':       {bg:'var(--indigo-soft)',  fg:'var(--indigo)'},
+    '人群':       {bg:'#EFEAE0',             fg:'#5A554E'}
+  };
+  const stableColor = {bg:'rgba(44,74,110,.08)', fg:'var(--indigo)'};
+
+  const tagHtml = (str, dimKey, isStable) => {
+    if(!str) return '';
+    const c = isStable ? stableColor : dimColor[dimKey];
+    return str.split(/[、,，\/＋\+]/).map(s=>s.trim()).filter(Boolean)
+      .map(s=>`<span class="map-tag" style="background:${c.bg};color:${c.fg}">${s}</span>`).join('');
+  };
+
+  const dims = [
+    {key:'品类', label:'品类', render:(v,n)=>tagHtml(v, '品类', n._stable)},
+    {key:'核心品', label:'核心品', render:(v,n)=>tagHtml(v, '核心品', n._stable)},
+    {key:'场景', label:'场景', render:(v,n)=>tagHtml(v, '场景', n._stable)},
+    {key:'功效', label:'功效', render:(v,n)=>tagHtml(v, '功效', n._stable)},
+    {key:'卖点', label:'卖点', render:(v,n)=>tagHtml(v, '卖点', n._stable)},
+    {key:'人群', label:'人群', render:(v,n)=>tagHtml(v, '人群', n._stable)},
+    {key:'highlight', label:'关键洞察', rowClass:'row-highlight', render:(v)=>v||''},
+    {key:'营销建议', label:'营销建议', rowClass:'row-action', render:(v)=>renderAction(v)}
+  ];
+
+  // 营销建议分行 + 「」chip 化
+  function renderAction(str){
+    if(!str) return '';
+    // 按"，"或"。"切句
+    const parts = str.split(/[，。]/).map(s=>s.trim()).filter(Boolean);
+    return parts.map((p,i)=>{
+      // 把「xxx」变成 chip
+      const html = p.replace(/「([^」]+)」/g, '<span class="ma-chip">$1</span>');
+      return `<div class="ma-line"><span class="ma-bullet">${i+1}</span><span class="ma-text">${html}</span></div>`;
+    }).join('');
+  }
+
+  // 日期解析为时间轴：将 "7月7日-8月23日（含三伏天）" → from/to/tag
+  function renderDateAxis(dateStr){
+    if(!dateStr) return '';
+    // 提取括号备注
+    const tagMatch = dateStr.match(/[（(]([^）)]+)[）)]/);
+    const tag = tagMatch ? tagMatch[1] : '';
+    const cleaned = dateStr.replace(/[（(][^）)]+[）)]/, '').trim();
+    // 用 - 或 — 或 ~ 或 → 切分
+    const sep = /[-—~→]/;
+    if(sep.test(cleaned)){
+      const [from, to] = cleaned.split(sep).map(s=>s.trim());
+      return `<div class="sh-date">
+        <span class="sh-d-from">${from}</span>
+        <span class="sh-axis"></span>
+        <span class="sh-d-to">${to}</span>
+        ${tag ? `<span class="sh-d-tag">${tag}</span>` : ''}
+      </div>`;
+    }
+    return `<div class="sh-date"><span class="sh-d-from">${cleaned}</span>${tag ? `<span class="sh-d-tag">${tag}</span>` : ''}</div>`;
+  }
+
+  const colsHtml = `<col class="col-dim">` + cols.map(c=>`<col${c._stable?' class="col-stable"':''}>`).join('');
+
+  const headHtml = `<tr>
+    <th class="dim-head">时令 / 维度</th>
+    ${cols.map(c=>{
+      // 5 节气色 → soft 配色映射（列底色用 soft，色带用实色）
+      const SOFT_MAP = {
+        '#5A8A7B':'#E8EFEC',  // 竹青 → soft
+        '#B8392E':'#F7E5E1',  // 朱砂 → soft
+        '#C68A2E':'#F8EDDA',  // 鎏金 → soft
+        '#8B5A3C':'#F2E7DD',  // 秋秫 → soft
+        '#2D3942':'#E5E8EC'   // 黛墨 → soft
+      };
+      const barColor = c.color || '#B8392E';
+      const bgSoft = SOFT_MAP[(c.color||'').toUpperCase()] || SOFT_MAP[c.color] || '#FAF7F0';
+      // 对外版：隐藏制作过程信息（节气色卡 / 色号），仅保留色带
+      const stamp = '';
+      return `<th class="${c._stable?'stable-head':''}" style="--bar-color:${barColor};background:${bgSoft}">
+        <div class="season-head" style="--bar-color:${barColor};background:${bgSoft}">
+          ${stamp}
+          <div class="sh-theme">${c['营销主题']||''}</div>
+          <div class="sh-name">${c.name}</div>
+          ${renderDateAxis(c.date)}
+          <div class="sh-gmv"><span class="gl">GMV</span>${c.GMV||''}</div>
+        </div>
+      </th>`;
+    }).join('')}
+  </tr>`;
+
+  const bodyHtml = dims.map(d => {
+    const rowCls = d.rowClass || '';
+    const cells = cols.map(c => {
+      const cls = c._stable ? 'stable-cell' : '';
+      return `<td class="${cls}">${d.render(c[d.key], c)}</td>`;
+    }).join('');
+    return `<tr class="${rowCls}">
+      <td class="dim-cell">${d.label}</td>
+      ${cells}
+    </tr>`;
+  }).join('');
+
+  const notesHtml = (O.insight_notes||[]).map(n=>`<div class="nb-item">${n}</div>`).join('');
+
+  card.innerHTML = `
+    <div class="map-hd">
+      <div class="mh-eyebrow">Marketing Map</div>
+      <div class="mh-title">${O.title}</div>
+      <div class="mh-sub">${O.subtitle}</div>
+      <div class="mh-stats">
+        <div class="mh-stat"><div class="ms-lbl">Total GMV</div><div class="ms-val">${O.total_gmv}</div></div>
+        <div class="mh-stat"><div class="ms-lbl">Total SKU</div><div class="ms-val">${O.total_sku}</div></div>
+        <div class="mh-stat"><div class="ms-lbl">Time Slots</div><div class="ms-val">4 + 1</div></div>
+        <div class="mh-stat"><div class="ms-lbl">Dimensions</div><div class="ms-val">6</div></div>
+      </div>
+    </div>
+    <div style="overflow-x:auto">
+    <table class="map-table">
+      <colgroup>${colsHtml}</colgroup>
+      <thead>${headHtml}</thead>
+      <tbody>${bodyHtml}</tbody>
+    </table>
+    </div>
+    ${notesHtml ? `<div class="notes-bar"><div class="nb-title">Key Structural Shifts · 关键结构性变化</div><div class="nb-list">${notesHtml}</div></div>` : ''}
+  `;
+}
+
+function shade(hex, amount){
+  const c = hex.replace('#','');
+  const num = parseInt(c.length===3 ? c.split('').map(x=>x+x).join('') : c, 16);
+  let r = (num>>16) + amount;
+  let g = ((num>>8)&0x00FF) + amount;
+  let b = (num&0x0000FF) + amount;
+  r = Math.max(0, Math.min(255, r));
+  g = Math.max(0, Math.min(255, g));
+  b = Math.max(0, Math.min(255, b));
+  return '#' + ((r<<16)|(g<<8)|b).toString(16).padStart(6,'0');
+}
+
+function renderInsights(){
+  const grid = document.getElementById('insight-grid');
+  grid.innerHTML = '';
+  CATS.forEach((cat,idx)=>{
+    const ins = INSIGHTS[cat];
+    if(!ins) return;
+    const card = document.createElement('div');
+    card.className = 'insight-card';
+    const s = STATS[cat];
+    const gmvStr = fmtMoney(s.total_gmv);
+    const pct = ((s.total_gmv / Object.values(STATS).reduce((a,b)=>a+b.total_gmv,0))*100).toFixed(1);
+    const coreInsight = ins['核心洞察'] ? `<div class="ic-core-insight">${ins['核心洞察']}</div>` : '';
+    const tagHtml = TAG_ORDER.map(tk => {
+      const t = ins[tk];
+      if(!t) return '';
+      const tagLabels = {'品类品线':'品线 / Lines','场景与功效':'场景·功效 / Scene','关键卖点':'卖点 / Selling Points'};
+      const label = tagLabels[tk] || tk;
+      const pointsHtml = (t.points || []).map(p=>`<li>${p}</li>`).join('');
+      const highlightsHtml = (t.highlights || []).map(p=>`<li>${p}</li>`).join('');
+      const allPoints = pointsHtml + highlightsHtml;
+      return `<div class="ic-tag-group">
+        <div class="ic-tag-hd">
+          <span class="ic-tag-name">${label}</span>
+        </div>
+        ${t.title ? `<div class="ic-tag-title">${t.title}</div>` : ''}
+        ${allPoints ? `<ul class="ic-tag-points">${allPoints}</ul>` : ''}
+      </div>`;
+    }).join('');
+    card.innerHTML = `
+      <div class="ic-hd">
+        <span class="emoji">${CAT_EMOJI[cat]||'📦'}</span>
+        <span class="cat-name">${cat}</span>
+        <span class="rank">No.${idx+1}</span>
+      </div>
+      <div class="ic-gmv-bar">
+        <span class="gmv-num">${gmvStr}</span>
+        <span class="gmv-pct">${pct}%</span>
+        <span class="gmv-sku">${s.count.toLocaleString()} SKU</span>
+      </div>
+      ${coreInsight}
+      <div class="ic-tags">${tagHtml}</div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ================== 02 · 分品类商品排行榜 ==================
+const tableState = { cat:'全部', search:'', sort:'rank', dm:'all', page:1, pageSize:50 };
+const fmt = n => n>=10000 ? (n/10000).toFixed(1)+'w' : (n||0).toLocaleString();
+const fmtMoneyShort = n => '¥'+(n>=10000 ? (n/10000).toFixed(1)+'w' : Math.round(n||0).toLocaleString());
+
+function renderChips(){
+  const wrap = document.getElementById('cat-chips');
+  if(!wrap) return;
+  // 按 GMV 降序排列品类
+  const sortedCats = [...CATS].sort((a,b)=>(STATS[b]?.total_gmv||0)-(STATS[a]?.total_gmv||0));
+  const all = ['全部', ...sortedCats];
+  wrap.innerHTML = all.map(c=>{
+    const cnt = c==='全部' ? RECORDS.length : RECORDS.filter(r=>r.cat===c).length;
+    return `<div class="chip ${tableState.cat===c?'active':''}" data-cat="${c}">${c}<span class="cnt">${cnt}</span></div>`;
+  }).join('');
+  wrap.querySelectorAll('.chip').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      tableState.cat = el.dataset.cat;
+      tableState.page = 1;
+      renderChips();
+      renderTable();
+    });
+  });
+}
+
+function getFiltered(){
+  let rows = RECORDS;
+  if(tableState.cat!=='全部') rows = rows.filter(r=>r.cat===tableState.cat);
+  if(tableState.search){
+    const q = tableState.search.toLowerCase();
+    rows = rows.filter(r=>(r.name||'').toLowerCase().includes(q) || (r.shop||'').toLowerCase().includes(q));
+  }
+  if(tableState.dm==='yes') rows = rows.filter(r=>r.in_dm==='是');
+  else if(tableState.dm==='no') rows = rows.filter(r=>r.in_dm!=='是');
+  const key = tableState.sort;
+  if(key==='rank') rows = [...rows].sort((a,b)=>(a.rank||9999)-(b.rank||9999));
+  else rows = [...rows].sort((a,b)=>(b[key]||0)-(a[key]||0));
+  return rows;
+}
+
+function renderSummary(filtered){
+  const bar = document.getElementById('summary-bar');
+  if(!bar) return;
+  const totalGmv = filtered.reduce((a,r)=>a+(r.gmv||0), 0);
+  const totalSales = filtered.reduce((a,r)=>a+(r.sales||0), 0);
+  const dmYes = filtered.filter(r=>r.in_dm==='是').length;
+  const dmRate = filtered.length ? ((dmYes/filtered.length)*100).toFixed(1) : 0;
+  bar.innerHTML = `
+    <span>当前筛选：<b>${filtered.length}</b> 件商品</span>
+    <span>合计销售额：<b>${fmtMoneyShort(totalGmv)}</b></span>
+    <span>合计销量：<b>${fmt(totalSales)}</b></span>
+    <span>全域通渗透：<b>${dmRate}%</b>（${dmYes}/${filtered.length}）</span>
+  `;
+}
+
+function renderTable(){
+  const filtered = getFiltered();
+  renderSummary(filtered);
+  const total = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / tableState.pageSize));
+  if(tableState.page > totalPages) tableState.page = totalPages;
+  const start = (tableState.page-1) * tableState.pageSize;
+  const pageRows = filtered.slice(start, start + tableState.pageSize);
+  const tbody = document.getElementById('tbody');
+  if(pageRows.length===0){
+    tbody.innerHTML = '<tr><td colspan="10" class="empty-row">暂无数据，调整筛选条件试试 ~</td></tr>';
+  } else {
+    tbody.innerHTML = pageRows.map((r, i)=>{
+      const globalIdx = start + i + 1;
+      const top3Cls = globalIdx<=3 ? ' top3' : '';
+      return `
+      <tr>
+        <td class="col-rank${top3Cls}">${globalIdx}</td>
+        <td class="col-img">${r.img ? `<img src="${r.img}" loading="lazy" onerror="this.style.opacity=0.2">` : '<div style="width:48px;height:48px;background:var(--bd-light);border-radius:6px"></div>'}</td>
+        <td class="col-name"><div class="pn" title="${(r.name||'').replace(/"/g,'&quot;')}">${r.name||''}</div></td>
+        <td class="col-cat"><span class="cat-tag" data-cat="${r.cat}">${r.cat||'—'}</span></td>
+        <td class="col-dm">${r.in_dm==='是' ? '<span class="dm-tag dm-yes">🟢 已开通</span>' : '<span class="dm-tag dm-no">🔴 未开通</span>'}</td>
+        <td class="col-price">${r.price||'—'}</td>
+        <td class="col-shop" title="${r.shop||''}">${r.shop||'—'}</td>
+        <td class="col-sales">${(r.sales||0).toLocaleString()}</td>
+        <td class="col-gmv">${fmtMoneyShort(r.gmv||0)}</td>
+        <td class="col-live">${r.live_sales ? r.live_sales.toLocaleString() : '—'}</td>
+      </tr>
+    `;}).join('');
+  }
+  const pager = document.getElementById('pager');
+  pager.innerHTML = `
+    <button id="prev" ${tableState.page<=1?'disabled':''}>← 上一页</button>
+    <span class="page-info">第 ${tableState.page} / ${totalPages} 页（共 ${total.toLocaleString()} 条 · 每页 ${tableState.pageSize}）</span>
+    <button id="next" ${tableState.page>=totalPages?'disabled':''}>下一页 →</button>
+  `;
+  document.getElementById('prev').onclick = ()=>{
+    if(tableState.page>1){ tableState.page--; renderTable(); window.scrollTo({top:document.querySelector('.filter-bar').offsetTop-20, behavior:'smooth'}); }
+  };
+  document.getElementById('next').onclick = ()=>{
+    if(tableState.page<totalPages){ tableState.page++; renderTable(); window.scrollTo({top:document.querySelector('.filter-bar').offsetTop-20, behavior:'smooth'}); }
+  };
+}
+
+function bindRankingControls(){
+  const si = document.getElementById('search-input');
+  const ss = document.getElementById('sort-select');
+  const ds = document.getElementById('dm-select');
+  if(si) si.addEventListener('input', e=>{ tableState.search = e.target.value.trim(); tableState.page = 1; renderTable(); });
+  if(ss) ss.addEventListener('change', e=>{ tableState.sort = e.target.value; tableState.page = 1; renderTable(); });
+  if(ds) ds.addEventListener('change', e=>{ tableState.dm = e.target.value; tableState.page = 1; renderTable(); });
+}
+
+// 支持 ?map=1 仅渲染营销地图（对外单图模式）
+const MAP_ONLY = new URLSearchParams(location.search).get('map') === '1';
+if(MAP_ONLY){
+  document.body.classList.add('map-only');
+}
+
+loadData().then(() => {
+  renderOverall();
+  if(!MAP_ONLY){
+    renderInsights();
+    renderChips();
+    renderTable();
+    bindRankingControls();
+  }
+  document.body.dataset.ready = '1';
+}).catch(err => {
+  document.body.innerHTML = '<div style="padding:60px;text-align:center;color:#B5341C;font-size:16px">数据加载失败：' + err.message + '</div>';
+  console.error(err);
+});
+</script>
+</body>
+</html>

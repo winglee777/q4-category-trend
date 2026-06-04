@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋令食饮 · 25年Q3品类趋势洞察</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Serif+SC:wght@700;900&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+::root{
+  --bg-deep:#1a120b;
+  --bg-card:#2a1f15;
+  --bg-card-2:#3a2d1f;
+  --accent:#FF6B35;
+  --accent-2:#ffd966;
+  --accent-glow:rgba(255,107,53,.18);
+  --brown:#8B4513;
+  --text:#f1ede4;
+  --text-mute:#9b8a78;
+  --line:#3d3025;
+  --green:#56c596;
+  --red:#ff7770;
+  --font-display:'Noto Serif SC','思源宋体',serif;
+  --font-en:'Archivo Black',sans-serif;
+  --font-body:'Plus Jakarta Sans','PingFang SC',sans-serif;
+  --ease:cubic-bezier(0.16,1,0.3,1);
+}
+html,body{background:var(--bg-deep);color:var(--text);font-family:var(--font-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body{
+  background:
+    radial-gradient(1200px 600px at 80% -10%,rgba(255,107,53,.08),transparent 60%),
+    radial-gradient(800px 600px at 0% 100%,rgba(139,69,19,.06),transparent 60%),
+    var(--bg-deep);
+  min-height:100vh;padding:0;
+}
+.page{max-width:1080px;margin:0 auto;padding:64px 56px;position:relative}
+
+/* 顶部品牌条 */
+.brand-bar{display:flex;justify-content:space-between;align-items:center;padding-bottom:32px;border-bottom:1px solid var(--line);margin-bottom:56px}
+.brand-bar .logo{font-family:var(--font-en);font-size:14px;letter-spacing:2px;color:var(--accent)}
+.brand-bar .meta{font-size:12px;color:var(--text-mute);letter-spacing:1.5px;text-transform:uppercase}
+
+/* Hero */
+.hero{margin-bottom:64px;position:relative}
+.hero .eyebrow{display:inline-block;font-family:var(--font-en);font-size:12px;letter-spacing:3px;color:var(--accent);background:var(--accent-glow);padding:8px 16px;border-radius:999px;margin-bottom:24px}
+.hero h1{
+  font-family:var(--font-display);
+  font-weight:900;
+  font-size:80px;
+  line-height:1.05;
+  letter-spacing:-2px;
+  margin-bottom:24px;
+  background:linear-gradient(180deg,#fff 0%,#FF6B35 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.hero h1 .accent{color:var(--accent);background:none;-webkit-text-fill-color:var(--accent)}
+.hero .subtitle{font-size:22px;color:var(--text-mute);font-weight:400;line-height:1.5;max-width:780px}
+.hero .subtitle b{color:var(--accent);font-weight:700}
+
+/* 三个核心数字 */
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:48px;padding-top:48px;border-top:1px dashed var(--line)}
+.stat{position:relative}
+.stat .num{font-family:var(--font-en);font-size:56px;line-height:1;color:var(--accent);margin-bottom:8px}
+.stat .label{font-size:13px;color:var(--text-mute);letter-spacing:1px}
+.stat::before{content:'';position:absolute;top:-48px;left:0;width:32px;height:2px;background:var(--accent)}
+
+/* 节气时间轴 */
+.timeline-h{margin:80px 0 32px}
+.timeline-h .num{font-family:var(--font-en);font-size:14px;color:var(--accent);letter-spacing:2px;display:block;margin-bottom:8px}
+.timeline-h .title{font-family:var(--font-display);font-size:36px;font-weight:900;color:var(--text);letter-spacing:-1px}
+.timeline-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:24px}
+.tl-card{background:var(--bg-card);border:1px solid var(--line);border-radius:10px;padding:16px;text-align:center;position:relative;overflow:hidden}
+.tl-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),transparent)}
+.tl-card .tl-name{font-family:var(--font-display);font-size:22px;font-weight:900;color:var(--text);margin-bottom:4px}
+.tl-card .tl-date{font-family:var(--font-en);font-size:11px;color:var(--text-mute);letter-spacing:1px;margin-bottom:8px}
+.tl-card .tl-cat{font-size:12px;color:var(--accent);font-weight:600;line-height:1.4}
+.tl-card .tl-gmv{font-family:var(--font-en);font-size:14px;color:var(--accent-2);margin-top:6px}
+
+/* 区块标题 */
+.section-h{display:flex;align-items:baseline;gap:16px;margin:80px 0 32px}
+.section-h .num{font-family:var(--font-en);font-size:14px;color:var(--accent);letter-spacing:2px}
+.section-h .title{font-family:var(--font-display);font-size:36px;font-weight:900;color:var(--text);letter-spacing:-1px}
+.section-h .desc{font-size:14px;color:var(--text-mute);margin-left:auto}
+
+/* 5 大趋势 */
+.trends{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.trend-card{background:var(--bg-card);border:1px solid var(--line);border-radius:12px;padding:24px;position:relative;overflow:hidden;transition:all .3s var(--ease)}
+.trend-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),transparent)}
+.trend-card .tag{display:inline-block;font-size:11px;color:var(--accent);letter-spacing:1.5px;font-weight:700;margin-bottom:12px;text-transform:uppercase;font-family:var(--font-en)}
+.trend-card h3{font-family:var(--font-display);font-weight:700;font-size:18px;color:var(--text);margin-bottom:8px;line-height:1.4}
+.trend-card p{font-size:13px;color:var(--text-mute);line-height:1.7}
+.trend-card p b{color:var(--accent-2);font-weight:700}
+.trend-card.full{grid-column:1/-1;background:linear-gradient(135deg,var(--bg-card-2),var(--bg-card));border-color:var(--accent);border-width:1px}
+.trend-card.full::before{background:var(--accent);height:3px}
+
+/* 品类矩阵 */
+.cat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.cat-item{background:var(--bg-card);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:16px 20px;transition:all .2s var(--ease)}
+.cat-item:hover{border-left-color:var(--accent-2);transform:translateX(4px)}
+.cat-item .cat-hd{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.cat-item .cat-emoji{font-size:18px}
+.cat-item .cat-name{font-size:14px;font-weight:800;color:var(--accent)}
+.cat-item .cat-gmv{font-family:var(--font-en);font-size:16px;color:var(--accent-2);margin-left:auto}
+.cat-item .cat-pct{font-size:11px;color:var(--text-mute);margin-left:4px}
+.cat-item .cat-key{font-size:12.5px;color:var(--text);line-height:1.7}
+.cat-item .cat-key b{color:var(--accent-2);font-weight:700}
+.cat-item .cat-chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.cat-item .chip{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;color:#ffe699;background:rgba(255,107,53,.08);border:1px solid rgba(255,107,53,.2)}
+
+/* CTA */
+.cta{margin-top:80px;padding:48px;background:linear-gradient(135deg,#2a1f15 0%,#3a2d1f 100%);border:1px solid var(--accent);border-radius:16px;text-align:center;position:relative;overflow:hidden}
+.cta::before{content:'';position:absolute;top:-50%;right:-20%;width:400px;height:400px;background:radial-gradient(circle,var(--accent-glow),transparent 70%);pointer-events:none}
+.cta h2{font-family:var(--font-display);font-size:32px;font-weight:900;margin-bottom:12px;letter-spacing:-1px;position:relative}
+.cta p{font-size:15px;color:var(--text-mute);margin-bottom:32px;position:relative}
+.cta .url{display:inline-block;font-family:var(--font-en);font-size:18px;color:var(--accent);background:rgba(0,0,0,.4);border:1px solid var(--accent);padding:18px 40px;border-radius:999px;letter-spacing:1px;position:relative;transition:all .3s var(--ease)}
+.cta .url:hover{background:var(--accent);color:#1a120b}
+.cta .arrow{display:inline-block;margin-left:8px;transition:transform .3s var(--ease)}
+.cta .url:hover .arrow{transform:translateX(4px)}
+
+/* 底部备注 */
+.footer-note{margin-top:48px;padding-top:32px;border-top:1px solid var(--line);font-size:12px;color:var(--text-mute);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-note .left{font-family:var(--font-en);letter-spacing:1.5px}
+
+/* 装饰元素 */
+.deco-grid{position:absolute;top:64px;right:56px;width:120px;height:120px;opacity:.15;pointer-events:none}
+.deco-grid svg{width:100%;height:100%}
+
+/* 数字徽章 */
+.badge{display:inline-block;font-family:var(--font-en);font-size:10px;letter-spacing:2px;color:var(--accent);border:1px solid var(--accent);padding:2px 8px;border-radius:3px;margin-left:8px}
+
+/* 动画 */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal.d1{transition-delay:.1s}.reveal.d2{transition-delay:.2s}.reveal.d3{transition-delay:.3s}
+.reveal.d4{transition-delay:.4s}.reveal.d5{transition-delay:.5s}.reveal.d6{transition-delay:.6s}
+
+@media (prefers-reduced-motion:reduce){.reveal{transition:none;opacity:1;transform:none}}
+@media (max-width:768px){
+  .page{padding:32px 20px}
+  .hero h1{font-size:44px}
+  .hero .subtitle{font-size:16px}
+  .stats-row{grid-template-columns:1fr;gap:24px}
+  .stat .num{font-size:40px}
+  .trends,.cat-grid{grid-template-columns:1fr}
+  .timeline-strip{grid-template-columns:repeat(3,1fr)}
+  .section-h .title{font-size:24px}
+  .cta{padding:32px 24px}
+  .cta h2{font-size:22px}
+  .cta .url{font-size:14px;padding:14px 24px;word-break:break-all;display:block}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- 装饰网格 -->
+  <div class="deco-grid">
+    <svg viewBox="0 0 100 100"><defs><pattern id="g" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="#FF6B35" stroke-width=".5"/></pattern></defs><rect width="100" height="100" fill="url(#g)"/></svg>
+  </div>
+
+  <!-- 顶部品牌条 -->
+  <div class="brand-bar">
+    <div class="logo reveal">Q3 · INSIGHT 2025</div>
+    <div class="meta reveal">2025.7.1 — 2025.9.30 · 13 WEEKS</div>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="eyebrow reveal">FOR INTERNAL USE · 销售 / 运营 / 行业团队 必读</div>
+    <h1 class="reveal d1">秋令食饮<br><span class="accent">Q3 品类 · 趋势风口</span></h1>
+    <p class="subtitle reveal d2">
+      视频号小店全域 <b>10,650 个 TOP 爆品</b>，<br>
+      6 节气 × 10 品类交叉洞察，<br>
+      帮你抓住<b>"小暑到秋分的消费脉搏"</b>。
+    </p>
+
+    <!-- 三个核心数字 -->
+    <div class="stats-row">
+      <div class="stat reveal d3">
+        <div class="num">¥33.0亿</div>
+        <div class="label">Q3 总 GMV · 10,650 SKU</div>
+      </div>
+      <div class="stat reveal d4">
+        <div class="num">6</div>
+        <div class="label">节气 × 10 品类 · 全链路覆盖</div>
+      </div>
+      <div class="stat reveal d5">
+        <div class="num">5</div>
+        <div class="label">核心趋势 · 节令/场景/口味/工艺/人群</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 节气时间轴 -->
+  <div class="timeline-h">
+    <span class="num reveal">SEASONAL · 6 节气消费弧线</span>
+    <span class="title reveal d1">从消暑到进补，Q3 消费节奏一览</span>
+  </div>
+  <div class="timeline-strip">
+    <div class="tl-card reveal d1">
+      <div class="tl-name">小暑</div>
+      <div class="tl-date">7.7</div>
+      <div class="tl-cat">生鲜水果消暑</div>
+      <div class="tl-gmv">榴莲¥4779w</div>
+    </div>
+    <div class="tl-card reveal d2">
+      <div class="tl-name">大暑</div>
+      <div class="tl-date">7.23</div>
+      <div class="tl-cat">冷饮/即食半成品</div>
+      <div class="tl-gmv">即食¥2.81亿</div>
+    </div>
+    <div class="tl-card reveal d3">
+      <div class="tl-name">立秋</div>
+      <div class="tl-date">8.7</div>
+      <div class="tl-cat">早餐/面点回暖</div>
+      <div class="tl-gmv">早餐¥1.27亿</div>
+    </div>
+    <div class="tl-card reveal d4">
+      <div class="tl-name">处暑</div>
+      <div class="tl-date">8.23</div>
+      <div class="tl-cat">月饼/白酒预热</div>
+      <div class="tl-gmv">中秋¥1.37亿</div>
+    </div>
+    <div class="tl-card reveal d5">
+      <div class="tl-name">白露</div>
+      <div class="tl-date">9.7</div>
+      <div class="tl-cat">滋补品集中爆发</div>
+      <div class="tl-gmv">黄精¥1939w</div>
+    </div>
+    <div class="tl-card reveal d6">
+      <div class="tl-name">秋分</div>
+      <div class="tl-date">9.23</div>
+      <div class="tl-cat">礼盒送礼峰值</div>
+      <div class="tl-gmv">送礼¥2.98亿</div>
+    </div>
+  </div>
+
+  <!-- 5 大核心趋势 -->
+  <div class="section-h">
+    <span class="num reveal">01 · OVERVIEW</span>
+    <span class="title reveal d1">5 大核心趋势贯穿全品类</span>
+    <span class="desc reveal d2">看趋势 · 抓方向</span>
+  </div>
+
+  <div class="trends">
+    <div class="trend-card reveal d1">
+      <span class="tag">节令心智</span>
+      <h3>中秋驱动Q3送礼经济，秋分前后滋补品集中爆发</h3>
+      <p>中秋场景 GMV <b>¥1.37亿</b>，仅次于礼盒送礼和即食<br>酒类(茅台53度白酒)/粮油(月饼礼盒)/生鲜(大闸蟹) 三品撑场<br>Q3 四节气演变：消暑→半成品→进补→送礼</p>
+    </div>
+    <div class="trend-card reveal d2">
+      <span class="tag">季节驱动</span>
+      <h3>即食半成品+冷链配送构成Q3基础设施</h3>
+      <p>即食方便 GMV <b>¥2.85亿</b>(475 SKU)，冷链配送 <b>¥2.92亿</b>(660 SKU)<br>早餐场景 <b>¥1.27亿</b>，烧麦/水饺/春饼验证懒人早餐需求<br>场景排序：礼盒送礼 > 即食 > 中秋 > 健身 > 早餐</p>
+    </div>
+    <div class="trend-card reveal d3">
+      <span class="tag">高频口味</span>
+      <h3>三咸格局主导Q3：酱卤 > 麻辣 > 咸鲜</h3>
+      <p>酱卤咸香 <b>¥7932w</b>，麻辣酸辣 <b>¥6224w</b>，咸鲜 <b>¥6151w</b><br>榴莲 <b>¥4779w</b> 排第4，全部来自生鲜泰国金枕<br>休闲食品占麻辣酸辣 GMV 77%，是重口味基本盘</p>
+    </div>
+    <div class="trend-card reveal d4">
+      <span class="tag">工艺/形态</span>
+      <h3>古法手工 ¥2.19亿 vs 即食方便 ¥2.85亿：传统与现代共存</h3>
+      <p>古法手工(九蒸九晒黄精/玉灵膏) vs 即食方便(烧麦/水饺)<br>有机无添加 <b>¥2.36亿</b>，地理标志 <b>¥2.26亿</b><br>进口 <b>¥1.62亿</b>，乳品和休闲食品进口渗透率最高</p>
+    </div>
+    <div class="trend-card full reveal d5">
+      <span class="tag">人群心智</span>
+      <h3>中老年奶粉 + 儿童成长，Q3 双端人群精准锁定</h3>
+      <p>
+        👴 <b>中老年</b>：蒙牛悠瑞骨力¥1259w，0蔗糖+补钙+关节养护三重心智　
+        👶 <b>儿童</b>：GMV ¥7779w(239 SKU)，蒙牛一米八八¥1213w + VD钙铁锌¥925w　
+        💪 <b>健身</b>：GMV ¥1.27亿，代餐/左旋肉碱/脱脂奶粉　
+        🐾 <b>宠物主</b>：宠物生活¥5469w，卫仕筋骨魔方头部集中度40.6%
+      </p>
+    </div>
+  </div>
+
+  <!-- 品类矩阵 -->
+  <div class="section-h">
+    <span class="num reveal">02 · CATEGORY</span>
+    <span class="title reveal d1">10 大品类 × 关键洞察<span class="badge">Q3</span></span>
+    <span class="desc reveal d2">GMV 降序 · 核心趋势一句话</span>
+  </div>
+
+  <div class="cat-grid">
+    <div class="cat-item reveal d1">
+      <div class="cat-hd"><span class="cat-emoji">🥬</span><span class="cat-name">生鲜</span><span class="cat-gmv">¥7.05亿<span class="cat-pct">21.3%</span></span></div>
+      <div class="cat-key">榴莲¥3287w一骑绝尘，<b>即食+冷链</b>半成品占SKU 42%，中秋大闸蟹/佛跳墙撑起送礼</div>
+      <div class="cat-chips"><span class="chip">榴莲¥3287w</span><span class="chip">即食¥3809w</span><span class="chip">冷链660SKU</span></div>
+    </div>
+    <div class="cat-item reveal d1">
+      <div class="cat-hd"><span class="cat-emoji">🍞</span><span class="cat-name">休闲食品</span><span class="cat-gmv">¥6.60亿<span class="cat-pct">20.0%</span></span></div>
+      <div class="cat-key">中秋场景¥1.22亿占全品类中秋89%，<b>麻辣酸辣+酱卤咸香</b>重口味占64%</div>
+      <div class="cat-chips"><span class="chip">中秋¥1.22亿</span><span class="chip">麻辣¥4812w</span><span class="chip">540品牌</span></div>
+    </div>
+    <div class="cat-item reveal d2">
+      <div class="cat-hd"><span class="cat-emoji">🍻</span><span class="cat-name">酒类</span><span class="cat-gmv">¥5.00亿<span class="cat-pct">15.1%</span></span></div>
+      <div class="cat-key">茅台占38.1%一家独大，<b>礼盒送礼¥1.03亿</b>验证中秋白酒刚需，53度酱香是标配</div>
+      <div class="cat-chips"><span class="chip">茅台38.1%</span><span class="chip">送礼¥1.03亿</span><span class="chip">酱香¥2240w</span></div>
+    </div>
+    <div class="cat-item reveal d2">
+      <div class="cat-hd"><span class="cat-emoji">🍄</span><span class="cat-name">传统滋补</span><span class="cat-gmv">¥4.16亿<span class="cat-pct">12.6%</span></span></div>
+      <div class="cat-key">九蒸九晒黄精¥1939w单品扛旗，<b>即食化比例15.2%</b>验证懒人进补趋势</div>
+      <div class="cat-chips"><span class="chip">黄精¥1939w</span><span class="chip">即食¥6347w</span><span class="chip">古法¥2.19亿</span></div>
+    </div>
+    <div class="cat-item reveal d3">
+      <div class="cat-hd"><span class="cat-emoji">🍚</span><span class="cat-name">粮油调味</span><span class="cat-gmv">¥2.93亿<span class="cat-pct">8.9%</span></span></div>
+      <div class="cat-key">椰香咖喱¥527w验证东南亚风味，<b>有机无添加渗透率全品类最高</b>，五常大米/铁棍山药地标¥2.26亿</div>
+      <div class="cat-chips"><span class="chip">椰香¥527w</span><span class="chip">有机渗透最高</span><span class="chip">地标¥2.26亿</span></div>
+    </div>
+    <div class="cat-item reveal d3">
+      <div class="cat-hd"><span class="cat-emoji">☕</span><span class="cat-name">饮料冲调</span><span class="cat-gmv">¥2.43亿<span class="cat-pct">7.4%</span></span></div>
+      <div class="cat-key">健身场景¥7998w居首，<b>功能型冲调双场景驱动</b>(健身+早餐)</div>
+      <div class="cat-chips"><span class="chip">健身¥7998w</span><span class="chip">早餐¥3544w</span><span class="chip">农道好物¥554w</span></div>
+    </div>
+    <div class="cat-item reveal d4">
+      <div class="cat-hd"><span class="cat-emoji">🥛</span><span class="cat-name">乳品冷饮</span><span class="cat-gmv">¥2.17亿<span class="cat-pct">6.6%</span></span></div>
+      <div class="cat-key">蒙牛占25.9%一家独大，<b>儿童场景¥2390w</b>锁定家庭采购，一米八八¥1213w单品占51%</div>
+      <div class="cat-chips"><span class="chip">蒙牛25.9%</span><span class="chip">儿童¥2390w</span><span class="chip">进口¥1.62亿</span></div>
+    </div>
+    <div class="cat-item reveal d4">
+      <div class="cat-hd"><span class="cat-emoji">💊</span><span class="cat-name">保健食品</span><span class="cat-gmv">¥1.75亿<span class="cat-pct">5.3%</span></span></div>
+      <div class="cat-key">诺特兰德占17.2%领跑，<b>儿童补钙+健身代餐双场景驱动</b>，草莓味酸甜口感占74%</div>
+      <div class="cat-chips"><span class="chip">诺特兰德17.2%</span><span class="chip">儿童¥1027w</span><span class="chip">酸甜74%</span></div>
+    </div>
+    <div class="cat-item reveal d5">
+      <div class="cat-hd"><span class="cat-emoji">🐾</span><span class="cat-name">宠物生活</span><span class="cat-gmv">¥5469w<span class="cat-pct">1.7%</span></span></div>
+      <div class="cat-key">卫仕筋骨魔方占11.8%领跑，<b>节令属性极弱全年稳定</b>，冻干工艺是核心卖点</div>
+      <div class="cat-chips"><span class="chip">卫仕11.8%</span><span class="chip">冻干¥203w</span><span class="chip">TOP5占40.6%</span></div>
+    </div>
+    <div class="cat-item reveal d5">
+      <div class="cat-hd"><span class="cat-emoji">🍵</span><span class="cat-name">茗茶</span><span class="cat-gmv">¥3793w<span class="cat-pct">1.1%</span></span></div>
+      <div class="cat-key">礼盒送礼占场景66%，<b>中秋茶礼是核心场景</b>，品牌化程度低靠产区心智驱动</div>
+      <div class="cat-chips"><span class="chip">送礼66%</span><span class="chip">金骏眉¥225w</span><span class="chip">古法+地标</span></div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta reveal">
+    <h2>👉 点击查看完整报告</h2>
+    <p>10 大品类卡片 · 10,650 行明细排行榜 · 可按品类筛选 · 完整趋势洞察</p>
+    <a class="url" href="./index.html" target="_blank">
+      查看 Q3 完整趋势报告<span class="arrow">→</span>
+    </a>
+  </div>
+
+  <!-- 底部备注 -->
+  <div class="footer-note">
+    <div class="left">DATA SOURCE / 友望视频号小店</div>
+    <div>覆盖节气：小暑→大暑→立秋→处暑→白露→秋分 · 全量数据请联系 wingsdli</div>
+  </div>
+
+</div>
+
+<script>
+// 滚动揭示
+const io = new IntersectionObserver(es => {
+  es.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1, rootMargin: '0px 0px -10% 0px' });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+<div style="text-align:center;padding:14px 16px;font-size:12px;color:rgba(255,255,255,0.55);background:#0F1A14">
+  本页累计访问 <span id="busuanzi_value_site_pv" style="color:#FF6B35;font-weight:600">…</span> 次 ·
+  独立访客 <span id="busuanzi_value_site_uv" style="color:#FF6B35;font-weight:600">…</span> 人
+</div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</body>
+</html>
