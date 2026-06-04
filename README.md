@@ -11,10 +11,11 @@
 - **数据来源**：友望数据 · 视频号小店商品榜
 - **品类范围**：10 大品类（粮油调味速食 / 酒类 / 生鲜 / 传统滋补 / 保健食品 / 休闲食品 / 乳品冷饮 / 饮料冲调 / 个护美妆 / 其他）
 - **总盘**：¥27.4亿 GMV / 9512 SKU
-- **在线版**：
-  - 长图版（推荐）：https://winglee777.github.io/q4-category-trend/longimage.html
-  - 营销地图：https://winglee777.github.io/q4-category-trend/index.html
-  - 分品类排行榜：https://winglee777.github.io/q4-category-trend/onepage.html
+- **在线版**：https://winglee777.github.io/q4-category-trend/longimage.html
+- **交付产物**：
+  - 1 个网站：`longimage.html`（长图三段式：营销地图 + 分品类洞察 + 排行榜）
+  - 1 张长图截图：`5-交付产物/Q4品类趋势_长图.png`
+  - 1 张营销地图：`5-交付产物/Q4时令营销地图.png`
 
 ---
 

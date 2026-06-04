@@ -1,18 +1,14 @@
-25年Q4 食品饮料品类趋势洞察 · 在线版
+25年Q4 食品饮料品类趋势洞察 · 交付物
+====================================
 
-【完整长图（推荐对客发）】
+【唯一在线版网站】
+长图三段式（营销地图 + 分品类洞察 + 排行榜）：
 https://winglee777.github.io/q4-category-trend/longimage.html
 
-【详情页（数据查询/品类切换）】
-https://winglee777.github.io/q4-category-trend/
+【两张图片】
+1. 长图截图：Q4品类趋势_长图.png
+2. 营销地图：Q4时令营销地图.png
 
-【单图模式】
-营销地图：https://winglee777.github.io/q4-category-trend/longimage.html?map=1
-
-------
-GitHub 仓库：https://github.com/winglee777/q4-category-trend
-数据周期：2025-10-01 ~ 2025-12-31
-数据来源：友望数据 · 视频号小店商品榜
-总盘：¥27.4 亿 GMV / 9,512 SKU
-
-⚠️ 在线版部署后可用（git push 完成 GitHub Pages 自动构建，30-60 秒生效）
+----
+取数周期：2025-10-01 — 2025-12-31
+总盘：¥27.4亿 GMV / 9512 SKU / 10 品类
