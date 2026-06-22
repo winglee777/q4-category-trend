@@ -1,0 +1,4220 @@
+{
+  "meta": {
+    "name": "Q4 冬令食饮",
+    "url": "https://winglee777.github.io/q4-category-trend/",
+    "period": "2025-10-01 — 2025-12-31",
+    "total_gmv": "¥27.4亿",
+    "total_sku": "9,512",
+    "category_count": 10,
+    "ai_friendly_data_version": "v1.0 · L1 bottom-up data",
+    "instruction_for_ai": "本文件是为 AI agent 提供的兜底数据。如果你访问 longimage.html 拿不到 爆款 SKU、关键词等颗粒数据（因为是 JS 动态渲染），请直接读本文件。本文件包含：① 全品类大盘 ② 各品类 TOP10 爆款 SKU ③ 时令节点营销主题 ④ 口味/场景/原料/卖点关键词统计 ⑤ 核心 insight 文案"
+  },
+  "category_stats": {
+    "粮油调味速食": {
+      "sku_count": 1201,
+      "total_sales": 9411720,
+      "total_gmv_yuan": 522412022.0,
+      "total_gmv_yi": 5.22
+    },
+    "酒类": {
+      "sku_count": 1902,
+      "total_sales": 1793216,
+      "total_gmv_yuan": 453309114.0,
+      "total_gmv_yi": 4.53
+    },
+    "生鲜": {
+      "sku_count": 1094,
+      "total_sales": 5364397,
+      "total_gmv_yuan": 385191340.0,
+      "total_gmv_yi": 3.85
+    },
+    "传统滋补": {
+      "sku_count": 578,
+      "total_sales": 4074211,
+      "total_gmv_yuan": 352026978.0,
+      "total_gmv_yi": 3.52
+    },
+    "保健食品/营养补充": {
+      "sku_count": 2004,
+      "total_sales": 2186506,
+      "total_gmv_yuan": 315546717.0,
+      "total_gmv_yi": 3.16
+    },
+    "休闲食品": {
+      "sku_count": 765,
+      "total_sales": 4208296,
+      "total_gmv_yuan": 254497164.0,
+      "total_gmv_yi": 2.54
+    },
+    "饮料冲调": {
+      "sku_count": 479,
+      "total_sales": 2930174,
+      "total_gmv_yuan": 209067146.0,
+      "total_gmv_yi": 2.09
+    },
+    "乳品冷饮": {
+      "sku_count": 368,
+      "total_sales": 2185222,
+      "total_gmv_yuan": 201204606.0,
+      "total_gmv_yi": 2.01
+    },
+    "宠物生活": {
+      "sku_count": 1063,
+      "total_sales": 390442,
+      "total_gmv_yuan": 30161527.0,
+      "total_gmv_yi": 0.3
+    },
+    "茗茶": {
+      "sku_count": 58,
+      "total_sales": 226441,
+      "total_gmv_yuan": 17126054.0,
+      "total_gmv_yi": 0.17
+    }
+  },
+  "timing_nodes": [
+    {
+      "id": "shuang11",
+      "name": "双11大促季",
+      "date": "10月14日 — 11月15日（预售+正式期）",
+      "color": "#B8392E",
+      "color_name": "朱砂",
+      "营销主题": "送礼硬通货 × 囤酒囤补",
+      "highlight": "酒类一家独大：茅台 GMV 1.85亿（占酒类 53.6%）+ 国台 2044w + 五粮液 1127w，TOP5 集中度 67%。整个时令窗口 GMV 3.96亿，酒类占 92.4%，绝对的送礼+囤货心智",
+      "品类": "酒类、保健食品",
+      "核心品": "茅台、国台、五粮液、酱香白酒、酒类礼盒",
+      "场景": "送礼、商务宴请、囤货过年",
+      "功效": "送礼硬通货、年货预备、宴请门面",
+      "卖点": "品牌官方、原箱、年份酒、礼盒装",
+      "人群": "商务男、中年男、送礼人群",
+      "GMV": "3.96亿",
+      "营销建议": "1 「茅台」「酱酒」是关键词，2 主题日历可绑定「双11预售」「11.11狂欢」「双12年货」，3 非头部酒商必走「地理标志酒」「节令限定」差异化"
+    },
+    {
+      "id": "nuandong",
+      "name": "进补暖冬季",
+      "date": "11月16日 — 12月8日（立冬→大雪）",
+      "color": "#8B5A3C",
+      "color_name": "秋秫",
+      "营销主题": "九蒸九晒 × 即食化滋补",
+      "highlight": "传统滋补 占该时令 94.2%。三件套齐爆：黄精+膏方 4776w / 41 SKU、即食海参/北极参 4597w / 38 SKU、驼乳粉+羊奶粉 4372w / 35 SKU。合计 1.37亿，进补暖冬场景成立",
+      "品类": "传统滋补、乳品冷饮",
+      "核心品": "黄精、即食海参、北极参、驼乳粉、羊奶粉、燕窝、花胶、西洋参",
+      "场景": "煲汤、养生、送父母",
+      "功效": "健脾补气、润燥滋阴、气血同补",
+      "卖点": "九蒸九晒、即食化、小分子吸收、新西兰银蕨",
+      "人群": "中老年、女性、送父母",
+      "GMV": "3.38亿",
+      "营销建议": "1 「进补」「养生」是关键词，2 主题日历可绑定「立冬养生节」「大雪进补周」「冬至膏方季」，3 工艺词比原料词更值得押"
+    },
+    {
+      "id": "nianhuo",
+      "name": "年货筹备季",
+      "date": "12月9日 — 12月31日（冬至+元旦）",
+      "color": "#5A8A7B",
+      "color_name": "竹青",
+      "营销主题": "卤味腊味 × 一人速食",
+      "highlight": "粮油调味速食登顶（48.1%）+ 生鲜年节点心（35.4%）双驱动。卤味+腊味+方便速食+火锅料 复合爆发，从 Q3 第 8 跃升 Q4 第 1。海鲜礼盒+广式年节点心+水晶虾饺 是生鲜主力",
+      "品类": "粮油调味速食、生鲜、酒类",
+      "核心品": "卤味、腊味、八宝饭、水晶虾饺、海鲜礼盒、糕点、年节坚果",
+      "场景": "年夜饭、送礼、囤货",
+      "功效": "开袋即食、年味传承、送礼体面",
+      "卖点": "地方特产、老字号、冷链直发、礼盒装",
+      "人群": "全家、年轻消费者、返乡人群",
+      "GMV": "10.77亿",
+      "营销建议": "1 「年货」「速食」是关键词，2 主题日历可绑定「元旦年货节」「腊月年货周」「春节备货季」，3 地方特产+冷链 是差异化关键"
+    }
+  ],
+  "stable_node": {
+    "id": "zilv",
+    "name": "自律生活季",
+    "date": "Q4 全季度 · 不分时令",
+    "color": "#2D3942",
+    "color_name": "黛墨",
+    "营销主题": "大单品 × 长期主义",
+    "highlight": "保健食品（30.2%）+ 休闲食品（24.7%）+ 乳品冷饮（20.5%）。万益蓝乳酸菌 ¥5219w 领跑、五个女博士虾青素 ¥1255w 接力、刀刃严选古树茶 ¥1953w 形成新爆款矩阵。功能性补剂赛道已进入大单品时代",
+    "品类": "保健食品、休闲食品、乳品冷饮",
+    "核心品": "万益蓝乳酸菌、虾青素、叶黄素酯、蛋白质粉、古树茶、代餐",
+    "场景": "日常补充、健身、抗衰",
+    "功效": "肠道菌调节、抗氧化、护眼、减脂",
+    "卖点": "大单品、小分子、益生菌活性、0添加",
+    "人群": "女性、健身族、白领",
+    "GMV": "9.20亿",
+    "营销建议": "1 「自律」「功能」是关键词，2 全年不分时令，主打「大单品 × 长期主义」，3 新品必须有明确功能定位"
+  },
+  "insight_notes": [
+    "粮油调味速食登顶：从 Q3 的 6.2% 第 8 跃升 Q4 19.1% 第 1，卤味+腊味+方便速食+火锅料 复合驱动",
+    "茅台一家独大：单品牌 1.85亿 吃下酒类 53.6%，TOP5 集中度 67%，非头部酒商必须靠节令礼盒/地理标志错位竞争",
+    "乳酸菌赛道进入大单品时代：万益蓝 5219w 领跑，呜咔实验室+棕色脂肪+早B晚S 形成 4 品牌矩阵",
+    "冬季进补三件套成立：黄精/海参/驼奶 合计 1.37亿，九蒸九晒+即食化+小分子是关键工艺词",
+    "虾青素接力羽衣甘蓝：五个女博士单品 1255w，抗氧化/护眼新一代女性向爆款赛道"
+  ],
+  "top10_global_skus": [
+    {
+      "rank": 1,
+      "cat": "酒类",
+      "subcat": "白酒",
+      "name": "手艺人壹号酱香型白酒53度5000ml靠谱口粮酒",
+      "shop": "手艺人王老者酒业",
+      "price": "189-199",
+      "sales": 70102,
+      "gmv_yuan": 13768790.0,
+      "gmv_wan": 1376.9,
+      "flavor": [],
+      "ingredient": [],
+      "scene": [],
+      "selling_point": [],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 2,
+      "cat": "饮料冲调",
+      "subcat": "冲调",
+      "name": "【福利价到】永和经典原味豆浆粉营养高蛋白早餐纯豆浆粉",
+      "shop": "永和豆浆冲饮",
+      "price": "89.9-99.9",
+      "sales": 127616,
+      "gmv_yuan": 12714376.4,
+      "gmv_wan": 1271.4,
+      "flavor": [
+        "咸鲜"
+      ],
+      "ingredient": [],
+      "scene": [
+        "早餐",
+        "健身"
+      ],
+      "selling_point": [
+        "高蛋白低脂"
+      ],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 339,
+      "cat": "休闲食品",
+      "subcat": "",
+      "name": "刀刃严选-云南古树生茶散料100g-1000g",
+      "shop": "云南勐海刀刃",
+      "price": "60-1500",
+      "sales": 12948,
+      "gmv_yuan": 12599593.0,
+      "gmv_wan": 1260.0,
+      "flavor": [],
+      "ingredient": [],
+      "scene": [],
+      "selling_point": [],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 3,
+      "cat": "保健食品/营养补充",
+      "subcat": "维生素",
+      "name": "[七周年庆专属机制！] 3瓶装 FIVEDOCTORS 五个女博士虾青素0.7g*30粒/瓶",
+      "shop": "五个女博士FIVE DOCTORS",
+      "price": "150-333",
+      "sales": 69485,
+      "gmv_yuan": 12549908.0,
+      "gmv_wan": 1255.0,
+      "flavor": [],
+      "ingredient": [
+        "虾"
+      ],
+      "scene": [],
+      "selling_point": [],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 6,
+      "cat": "保健食品/营养补充",
+      "subcat": "维生素",
+      "name": "诺特兰德VD钙铁锌直饮包液体钙营养正品 30条/桶ylw",
+      "shop": "诺特兰德",
+      "price": "339-359",
+      "sales": 33189,
+      "gmv_yuan": 11516626.0,
+      "gmv_wan": 1151.7,
+      "flavor": [],
+      "ingredient": [],
+      "scene": [],
+      "selling_point": [],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 21,
+      "cat": "保健食品/营养补充",
+      "subcat": "益生菌",
+      "name": "【贾冰推荐】【新年礼盒】【单条低至3.54元】呜咔实验室棕色脂肪乳酸菌益生菌二元一菌科学管理必备成人3盒84天周期定植",
+      "shop": "呜咔实验室",
+      "price": "29.9-1797",
+      "sales": 11519,
+      "gmv_yuan": 11343512.3,
+      "gmv_wan": 1134.4,
+      "flavor": [],
+      "ingredient": [],
+      "scene": [
+        "礼盒送礼"
+      ],
+      "selling_point": [],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 14,
+      "cat": "保健食品/营养补充",
+      "subcat": "益生菌",
+      "name": "[万益蓝 “早B晚S” BODY100+S100益生菌] 累计销售额7亿瓶！数字管理 助力轻盈体质  即食乳酸菌双11",
+      "shop": "万益蓝WONDERLAB",
+      "price": "602-999",
+      "sales": 14801,
+      "gmv_yuan": 9738875.0,
+      "gmv_wan": 973.9,
+      "flavor": [],
+      "ingredient": [],
+      "scene": [
+        "即食"
+      ],
+      "selling_point": [
+        "即食方便"
+      ],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 119,
+      "cat": "乳品冷饮",
+      "subcat": "奶粉",
+      "name": "蒙牛一米八八儿童成长高钙配方奶粉 2袋装*300克 CBP 乳铁蛋白 叶黄素",
+      "shop": "未命名小店",
+      "price": "388-398",
+      "sales": 24250,
+      "gmv_yuan": 9607940.0,
+      "gmv_wan": 960.8,
+      "flavor": [],
+      "ingredient": [],
+      "scene": [
+        "儿童"
+      ],
+      "selling_point": [],
+      "audience": "儿童",
+      "timing": ""
+    },
+    {
+      "rank": 5,
+      "cat": "饮料冲调",
+      "subcat": "",
+      "name": "【康新牧场】 酱牛肉150g*5袋 老汤卤煮  开袋即食 健康代餐",
+      "shop": "康新牧场",
+      "price": "79.9-99.9",
+      "sales": 112253,
+      "gmv_yuan": 9597681.7,
+      "gmv_wan": 959.8,
+      "flavor": [],
+      "ingredient": [
+        "牛肉"
+      ],
+      "scene": [
+        "即食",
+        "健身"
+      ],
+      "selling_point": [
+        "即食方便"
+      ],
+      "audience": "",
+      "timing": ""
+    },
+    {
+      "rank": 33,
+      "cat": "保健食品/营养补充",
+      "subcat": "营养补充",
+      "name": "林诺德【买8送16到手260件】Linoder氨基丁酸水解蛋黄骨肽钙饮",
+      "shop": "Linoder营养成长商城",
+      "price": "1059-1099",
+      "sales": 8053,
+      "gmv_yuan": 8638406.0,
+      "gmv_wan": 863.8,
+      "flavor": [],
+      "ingredient": [],
+      "scene": [],
+      "selling_point": [],
+      "audience": "",
+      "timing": ""
+    }
+  ],
+  "top10_per_category": {
+    "粮油调味速食": [
+      {
+        "rank": 1,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "【4盒装】西小豆泰式椰香咖喱调料块80g/盒 不辣全家爱吃 日期新鲜",
+        "shop": "西小豆",
+        "price": "19.9-44.9",
+        "sales": 236859,
+        "gmv_yuan": 8500418.1,
+        "gmv_wan": 850.0,
+        "flavor": [
+          "椰香"
+        ],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "新鲜"
+        ],
+        "audience": "全家",
+        "timing": ""
+      },
+      {
+        "rank": 7,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "【开学季狂欢购】叮叮懒人菜超值特惠酸菜鱼360g方便菜一人家庭便捷简单酸爽开胃下饭白肉好消化微微辣",
+        "shop": "叮叮懒人菜食品有限公司",
+        "price": "129.9-139.9",
+        "sales": 53559,
+        "gmv_yuan": 7406174.1,
+        "gmv_wan": 740.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "下饭",
+          "即食"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "全家",
+        "timing": ""
+      },
+      {
+        "rank": 1,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "福月德[到手6袋]牛羊肉水饺每袋400g  大约20个左右 顺丰包邮 鲜嫩多汁",
+        "shop": "福月德清真牛羊肉水饺",
+        "price": "49.9-59.9",
+        "sales": 126985,
+        "gmv_yuan": 7326733.5,
+        "gmv_wan": 732.7,
+        "flavor": [],
+        "ingredient": [
+          "羊肉"
+        ],
+        "scene": [],
+        "selling_point": [
+          "冷链配送",
+          "顺丰包邮"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 4,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "正宗潮汕牛肉丸/牛筋丸新鲜美味爆汁好吃麻辣烫高品质串串烧烤劲道家常菜",
+        "shop": "潮丸嘉潮汕牛肉丸",
+        "price": "64.9-99.9",
+        "sales": 103369,
+        "gmv_yuan": 7173243.1,
+        "gmv_wan": 717.3,
+        "flavor": [
+          "麻辣酸辣"
+        ],
+        "ingredient": [
+          "牛肉"
+        ],
+        "scene": [],
+        "selling_point": [
+          "新鲜"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 14,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "【活动专属】叮叮懒人菜超值特惠酸菜鱼360g方便菜一人家庭便捷简单酸爽开胃下饭白肉好消化微微辣",
+        "shop": "叮叮懒人菜食品有限公司",
+        "price": "139.9-149.9",
+        "sales": 40418,
+        "gmv_yuan": 5929617.2,
+        "gmv_wan": 593.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "下饭",
+          "即食"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "全家",
+        "timing": ""
+      },
+      {
+        "rank": 67,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "【白老师专属】顺丰/京东发货意大利进口卡里布·黄鳍金枪鱼罐头80g/罐即食原味鲜美",
+        "shop": "食草生活进口食品",
+        "price": "39.8-512",
+        "sales": 34601,
+        "gmv_yuan": 5820438.2,
+        "gmv_wan": 582.0,
+        "flavor": [
+          "咸鲜"
+        ],
+        "ingredient": [],
+        "scene": [
+          "即食"
+        ],
+        "selling_point": [
+          "进口",
+          "即食方便",
+          "冷链配送"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 6,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "【618专属】到手18片1800g低脂高蛋白藜麦鸡排低GI健身早餐鲜嫩鸡胸速食干净配方zbj",
+        "shop": "叮叮懒人菜",
+        "price": "89.9-99.9",
+        "sales": 54599,
+        "gmv_yuan": 5321618.1,
+        "gmv_wan": 532.2,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "早餐",
+          "即食",
+          "健身"
+        ],
+        "selling_point": [
+          "高蛋白低脂",
+          "即食方便"
+        ],
+        "audience": "健身族",
+        "timing": ""
+      },
+      {
+        "rank": 11,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "[小糖糖专属]2025年新米 乡州农场 五常大米原粮稻花香2号10斤（可正装试吃1斤）",
+        "shop": "乡州农场大米",
+        "price": "61.9-69.9",
+        "sales": 74997,
+        "gmv_yuan": 4917502.3,
+        "gmv_wan": 491.8,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "产地直发"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 582,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "【囤货活动推荐】顺丰/京东发货  意大利进口CALLIPO卡里布·橄榄油浸·黄鳍金枪鱼罐头（送海盐黑胡椒调料包）",
+        "shop": "食草生活进口食品",
+        "price": "269-720",
+        "sales": 8717,
+        "gmv_yuan": 3985861.65,
+        "gmv_wan": 398.6,
+        "flavor": [
+          "辛香"
+        ],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "进口",
+          "联名IP",
+          "冷链配送"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 48,
+        "cat": "粮油调味速食",
+        "subcat": "",
+        "name": "[三袋装]ANDEMISKI秘鲁原装进口三色藜麦饱腹蛋白健康粗粮",
+        "shop": "ANDEMISKI企业店",
+        "price": "79-89",
+        "sales": 41007,
+        "gmv_yuan": 3533008.0,
+        "gmv_wan": 353.3,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "进口"
+        ],
+        "audience": "",
+        "timing": ""
+      }
+    ],
+    "酒类": [
+      {
+        "rank": 1,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "手艺人壹号酱香型白酒53度5000ml靠谱口粮酒",
+        "shop": "手艺人王老者酒业",
+        "price": "189-199",
+        "sales": 70102,
+        "gmv_yuan": 13768790.0,
+        "gmv_wan": 1376.9,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 55,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "飞天茅台 2018年 酱香型白酒 53度500ml",
+        "shop": "泰诚源白酒",
+        "price": "1753-1788",
+        "sales": 4618,
+        "gmv_yuan": 8095354.0,
+        "gmv_wan": 809.5,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 476,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "[徐光宇专属]贵州茅台酱香型白酒53度500ml飞天茅台原箱6瓶",
+        "shop": "酱藏酒洲",
+        "price": "9943-9960",
+        "sales": 766,
+        "gmv_yuan": 7616613.0,
+        "gmv_wan": 761.7,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 5,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "五粮液股份中国红金珀【2021年产】浓香型52度500ml*6瓶",
+        "shop": "购酒网卖场店",
+        "price": "399",
+        "sales": 18824,
+        "gmv_yuan": 7510776.0,
+        "gmv_wan": 751.1,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 14,
+        "cat": "酒类",
+        "subcat": "",
+        "name": "国鼎欧根纱  宜宾优级酒 {KH} 礼盒装 500ml*6",
+        "shop": "中馥名酒店",
+        "price": "592-697",
+        "sales": 10935,
+        "gmv_yuan": 6523320.0,
+        "gmv_wan": 652.3,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "礼盒送礼"
+        ],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 634,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "[徐光宇专属]贵州茅台(KWEICHOW MOUTAI) | 2025年贵州茅台飞天原箱酱香经典白酒53度500ml*6",
+        "shop": "国尖酒业",
+        "price": "10974-13000",
+        "sales": 565,
+        "gmv_yuan": 6266185.0,
+        "gmv_wan": 626.6,
+        "flavor": [
+          "酱卤咸香"
+        ],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 594,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "[徐光宇专属]贵州茅台 53度飞天茅台 500ml*6（原箱） 酱香型白酒",
+        "shop": "姚康酒类名酒",
+        "price": "9996-10002",
+        "sales": 599,
+        "gmv_yuan": 5987604.0,
+        "gmv_wan": 598.8,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 39,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "茅台飞天43度500ml酱香型白酒1瓶",
+        "shop": "梵克仕司选名酒行",
+        "price": "761-899",
+        "sales": 5934,
+        "gmv_yuan": 4675879.0,
+        "gmv_wan": 467.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 133,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "[飞天茅台专属]贵州茅台 飞天茅台酒 53度酱香型白酒 500ml  2023年单瓶装",
+        "shop": "盛汇阁酒类",
+        "price": "1638",
+        "sales": 2516,
+        "gmv_yuan": 4121208.0,
+        "gmv_wan": 412.1,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 819,
+        "cat": "酒类",
+        "subcat": "白酒",
+        "name": "贵州茅台23-25年原箱不拆封飞天茅台酱香型白酒53度500ml*6",
+        "shop": "星晟名酒",
+        "price": "9754-9759",
+        "sales": 412,
+        "gmv_yuan": 4018648.0,
+        "gmv_wan": 401.9,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      }
+    ],
+    "生鲜": [
+      {
+        "rank": 10,
+        "cat": "生鲜",
+        "subcat": "肉类",
+        "name": "[鲸选专属][火锅食材]藏海牧场精品肥牛卷烤肉生鲜10包涮火锅牛肉卷共4斤",
+        "shop": "藏海牧场",
+        "price": "64.9-129.9",
+        "sales": 51299,
+        "gmv_yuan": 4461832.1,
+        "gmv_wan": 446.2,
+        "flavor": [],
+        "ingredient": [
+          "牛肉"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 2,
+        "cat": "生鲜",
+        "subcat": "",
+        "name": "【主播专属】南极甄选肉质饱满虾肉100g一包",
+        "shop": "伴星渔岛的小店",
+        "price": "29.9-39.9",
+        "sales": 111863,
+        "gmv_yuan": 4163778.7,
+        "gmv_wan": 416.4,
+        "flavor": [],
+        "ingredient": [
+          "虾"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 692,
+        "cat": "生鲜",
+        "subcat": "水果",
+        "name": "陈之颂[干仓陈化7年]2018新会产区圈枝柑大红皮",
+        "shop": "陈之颂韵云店",
+        "price": "391-798",
+        "sales": 7657,
+        "gmv_yuan": 4155744.5,
+        "gmv_wan": 415.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 16,
+        "cat": "生鲜",
+        "subcat": "水果",
+        "name": "[唐老板专属]1000g/1袋榴莲西施榴莲果肉泰国金枕榴莲肉冷冻榴莲液氮榴莲生鲜水果香甜软糯MJT",
+        "shop": "liulian·xishi榴莲西施烘焙小店",
+        "price": "99-143",
+        "sales": 38505,
+        "gmv_yuan": 3811995.0,
+        "gmv_wan": 381.2,
+        "flavor": [
+          "榴莲"
+        ],
+        "ingredient": [
+          "榴莲"
+        ],
+        "scene": [],
+        "selling_point": [
+          "进口"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 4,
+        "cat": "生鲜",
+        "subcat": "蔬菜",
+        "name": "【支持试吃2根】新上市整箱10根东北黄糯玉米大棒粘软香甜2800克",
+        "shop": "鲜生农场",
+        "price": "19.99-29.99",
+        "sales": 117116,
+        "gmv_yuan": 3199214.28,
+        "gmv_wan": 319.9,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 25,
+        "cat": "生鲜",
+        "subcat": "水果",
+        "name": "[唐老板专属]榴莲西施 1000g/1袋榴莲果肉泰国金枕榴莲肉冷冻榴莲液氮榴莲生鲜水果香甜软糯MJT",
+        "shop": "liulian·xishi榴莲西施烘焙小店",
+        "price": "99-229",
+        "sales": 31465,
+        "gmv_yuan": 3115035.0,
+        "gmv_wan": 311.5,
+        "flavor": [
+          "榴莲"
+        ],
+        "ingredient": [
+          "榴莲"
+        ],
+        "scene": [],
+        "selling_point": [
+          "进口"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 716,
+        "cat": "生鲜",
+        "subcat": "海鲜",
+        "name": "[路易专属]法国银鳕鱼（整鱼原切） 拉美澳",
+        "shop": "拉美澳",
+        "price": "169-819",
+        "sales": 4473,
+        "gmv_yuan": 3058162.0,
+        "gmv_wan": 305.8,
+        "flavor": [],
+        "ingredient": [
+          "鳕鱼"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 24,
+        "cat": "生鲜",
+        "subcat": "海鲜",
+        "name": "【VIP专属拍3条送1条】国联水产 高品质 酒香海鲈鱼 三去开背净膛净重400g起/袋",
+        "shop": "guolian国联 水产",
+        "price": "87.02-103",
+        "sales": 32156,
+        "gmv_yuan": 3041605.7,
+        "gmv_wan": 304.2,
+        "flavor": [
+          "酒香"
+        ],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "联名IP"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1094,
+        "cat": "生鲜",
+        "subcat": "水果",
+        "name": "陈之颂[干仓陈化]2015新会梅江圈枝柑大红皮 一线核心产区",
+        "shop": "该帐号已注销",
+        "price": "394",
+        "sales": 5324,
+        "gmv_yuan": 2950216.5,
+        "gmv_wan": 295.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 96,
+        "cat": "生鲜",
+        "subcat": "海鲜",
+        "name": "赶海父子1000g /5袋  福建宁德生态原切大黄鱼黄花鱼原切黄鱼排免杀免洗",
+        "shop": "赶海父子海产品店",
+        "price": "144.9-239.9",
+        "sales": 14676,
+        "gmv_yuan": 2896666.4,
+        "gmv_wan": 289.7,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      }
+    ],
+    "传统滋补": [
+      {
+        "rank": 13,
+        "cat": "传统滋补",
+        "subcat": "药食同源",
+        "name": "[拍一发四] 户小亚长白山人参片 50克/罐*4",
+        "shop": "户小亚富北",
+        "price": "93.9-499",
+        "sales": 70762,
+        "gmv_yuan": 6877813.8,
+        "gmv_wan": 687.8,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 61,
+        "cat": "传统滋补",
+        "subcat": "药食同源",
+        "name": "九蒸九晒黄精 手工制作独立包装 一罐（250克）",
+        "shop": "栩栩生香",
+        "price": "139-149",
+        "sales": 36176,
+        "gmv_yuan": 5028464.0,
+        "gmv_wan": 502.8,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "古法手工"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 19,
+        "cat": "传统滋补",
+        "subcat": "药食同源",
+        "name": "途阳黄精五黑膏黄精膏桑葚黑果枸杞黑芝麻黑米黑豆黄精五黑膏",
+        "shop": "途阳养生",
+        "price": "19.9-138.8",
+        "sales": 60934,
+        "gmv_yuan": 4785466.88,
+        "gmv_wan": 478.5,
+        "flavor": [],
+        "ingredient": [
+          "枸杞",
+          "芝麻",
+          "黑豆"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 36,
+        "cat": "传统滋补",
+        "subcat": "菌菇干货",
+        "name": "本草种植有机银耳40g*3罐送316郁金香焖烧杯*银耳伴侣20小包",
+        "shop": "佳珥食品",
+        "price": "89.9-119.9",
+        "sales": 45828,
+        "gmv_yuan": 4617532.2,
+        "gmv_wan": 461.8,
+        "flavor": [],
+        "ingredient": [
+          "银耳"
+        ],
+        "scene": [],
+        "selling_point": [
+          "有机无添加"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 639,
+        "cat": "传统滋补",
+        "subcat": "高端滋补",
+        "name": "[20周年庆3斤送2斤]9A鲜食参王！省1999元  5斤鲜食海参 Q弹口感 1斤4-8头  鲜食低温锁鲜",
+        "shop": "海渔丰实精选店",
+        "price": "939-949",
+        "sales": 4869,
+        "gmv_yuan": 4591844.0,
+        "gmv_wan": 459.2,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1340,
+        "cat": "传统滋补",
+        "subcat": "药食同源",
+        "name": "神农金康 有机黄精 九华山8年多花黄精500g/袋 九蒸九晒九润九露即食黄精",
+        "shop": "神农金康食养店",
+        "price": "166-3999",
+        "sales": 4517,
+        "gmv_yuan": 4582370.39,
+        "gmv_wan": 458.2,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "即食"
+        ],
+        "selling_point": [
+          "有机无添加",
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1952,
+        "cat": "传统滋补",
+        "subcat": "高端滋补",
+        "name": "[日常滋养爆款｜到手90瓶] 燕之屋精炖燕窝礼盒40g*30瓶*3盒 家庭装日常滋养送女友送礼推荐 rc",
+        "shop": "燕之屋",
+        "price": "1088.99-3897",
+        "sales": 3277,
+        "gmv_yuan": 4502263.0,
+        "gmv_wan": 450.2,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "礼盒送礼"
+        ],
+        "selling_point": [],
+        "audience": "全家",
+        "timing": "全年"
+      },
+      {
+        "rank": 46,
+        "cat": "传统滋补",
+        "subcat": "药食同源",
+        "name": "618大促【喜纯黄精五黑膏】黑桑葚黑米黑豆黑芝麻黑枸杞子古方养生膏过节送礼好物",
+        "shop": "喜纯",
+        "price": "59-299.9",
+        "sales": 42043,
+        "gmv_yuan": 4255154.16,
+        "gmv_wan": 425.5,
+        "flavor": [],
+        "ingredient": [
+          "枸杞",
+          "芝麻",
+          "黑豆"
+        ],
+        "scene": [
+          "礼盒送礼",
+          "秋冬进补"
+        ],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1272,
+        "cat": "传统滋补",
+        "subcat": "高端滋补",
+        "name": "[唐老板专属]百年堂食用阿胶",
+        "shop": "百年堂阿胶中式养生店",
+        "price": "888",
+        "sales": 4712,
+        "gmv_yuan": 4184256.0,
+        "gmv_wan": 418.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 185,
+        "cat": "传统滋补",
+        "subcat": "高端滋补",
+        "name": "【白大姐专属】复兴岛海参大连厂家直发鲜蒸即食海参4-6头/500g*2斤",
+        "shop": "复兴岛",
+        "price": "389-399",
+        "sales": 9959,
+        "gmv_yuan": 3927145.0,
+        "gmv_wan": 392.7,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "即食"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      }
+    ],
+    "保健食品/营养补充": [
+      {
+        "rank": 3,
+        "cat": "保健食品/营养补充",
+        "subcat": "维生素",
+        "name": "[七周年庆专属机制！] 3瓶装 FIVEDOCTORS 五个女博士虾青素0.7g*30粒/瓶",
+        "shop": "五个女博士FIVE DOCTORS",
+        "price": "150-333",
+        "sales": 69485,
+        "gmv_yuan": 12549908.0,
+        "gmv_wan": 1255.0,
+        "flavor": [],
+        "ingredient": [
+          "虾"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 6,
+        "cat": "保健食品/营养补充",
+        "subcat": "维生素",
+        "name": "诺特兰德VD钙铁锌直饮包液体钙营养正品 30条/桶ylw",
+        "shop": "诺特兰德",
+        "price": "339-359",
+        "sales": 33189,
+        "gmv_yuan": 11516626.0,
+        "gmv_wan": 1151.7,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 21,
+        "cat": "保健食品/营养补充",
+        "subcat": "益生菌",
+        "name": "【贾冰推荐】【新年礼盒】【单条低至3.54元】呜咔实验室棕色脂肪乳酸菌益生菌二元一菌科学管理必备成人3盒84天周期定植",
+        "shop": "呜咔实验室",
+        "price": "29.9-1797",
+        "sales": 11519,
+        "gmv_yuan": 11343512.3,
+        "gmv_wan": 1134.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "礼盒送礼"
+        ],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 14,
+        "cat": "保健食品/营养补充",
+        "subcat": "益生菌",
+        "name": "[万益蓝 “早B晚S” BODY100+S100益生菌] 累计销售额7亿瓶！数字管理 助力轻盈体质  即食乳酸菌双11",
+        "shop": "万益蓝WONDERLAB",
+        "price": "602-999",
+        "sales": 14801,
+        "gmv_yuan": 9738875.0,
+        "gmv_wan": 973.9,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "即食"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 33,
+        "cat": "保健食品/营养补充",
+        "subcat": "营养补充",
+        "name": "林诺德【买8送16到手260件】Linoder氨基丁酸水解蛋黄骨肽钙饮",
+        "shop": "Linoder营养成长商城",
+        "price": "1059-1099",
+        "sales": 8053,
+        "gmv_yuan": 8638406.0,
+        "gmv_wan": 863.8,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 10,
+        "cat": "保健食品/营养补充",
+        "subcat": "维生素",
+        "name": "诺特兰德升级款VD钙铁锌液体直饮包钙锌协同营养好吸收 草莓味 30条/桶fjq自营",
+        "shop": "诺特兰德营养商城",
+        "price": "339-394",
+        "sales": 19549,
+        "gmv_yuan": 6828416.0,
+        "gmv_wan": 682.8,
+        "flavor": [
+          "酸甜果味"
+        ],
+        "ingredient": [
+          "草莓"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 23,
+        "cat": "保健食品/营养补充",
+        "subcat": "益生菌",
+        "name": "【万益蓝 “早B晚S” BODY100+S100益生菌】热卖推荐 累计销售额7亿瓶！数字管理 助力轻盈体质  即食乳酸菌",
+        "shop": "万益蓝WONDERLAB",
+        "price": "597-999",
+        "sales": 10525,
+        "gmv_yuan": 6591680.0,
+        "gmv_wan": 659.2,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "即食"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 11,
+        "cat": "保健食品/营养补充",
+        "subcat": "骨骼",
+        "name": "[刘涛代言]诺特兰德液体钙铁锌维D直饮包钙锌协同营养 草莓味 30条/桶 自播专享",
+        "shop": "诺特兰德",
+        "price": "329-359",
+        "sales": 18898,
+        "gmv_yuan": 6542747.0,
+        "gmv_wan": 654.3,
+        "flavor": [
+          "酸甜果味"
+        ],
+        "ingredient": [
+          "草莓"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 8,
+        "cat": "保健食品/营养补充",
+        "subcat": "益生菌",
+        "name": "[618抢先购-华大营养-益畅益生菌]连续10年口碑王牌！5菌协同，鲜活直达，畅快由内而生（30袋/盒）",
+        "shop": "华大营养益生菌-BGINutri",
+        "price": "189.3-2959.58",
+        "sales": 24682,
+        "gmv_yuan": 6225455.37,
+        "gmv_wan": 622.5,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "新鲜"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 2,
+        "cat": "保健食品/营养补充",
+        "subcat": "胶原蛋白",
+        "name": "[618大促专属]诺特兰德骨胶原蛋白+钙+维D片钙片运动健身活力 120粒/瓶 jc",
+        "shop": "诺特兰德营养健康食品店",
+        "price": "39.9-199",
+        "sales": 77330,
+        "gmv_yuan": 5694180.3,
+        "gmv_wan": 569.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "健身"
+        ],
+        "selling_point": [],
+        "audience": "健身族",
+        "timing": ""
+      }
+    ],
+    "休闲食品": [
+      {
+        "rank": 339,
+        "cat": "休闲食品",
+        "subcat": "",
+        "name": "刀刃严选-云南古树生茶散料100g-1000g",
+        "shop": "云南勐海刀刃",
+        "price": "60-1500",
+        "sales": 12948,
+        "gmv_yuan": 12599593.0,
+        "gmv_wan": 1260.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 20,
+        "cat": "休闲食品",
+        "subcat": "方便速食",
+        "name": "[总监专属送定制锅]康师傅方便面经典袋胡椒袋多口味混组袋面泡面JT",
+        "shop": "康师傅杉洋",
+        "price": "96-139.9",
+        "sales": 60126,
+        "gmv_yuan": 8411627.4,
+        "gmv_wan": 841.2,
+        "flavor": [
+          "辛香"
+        ],
+        "ingredient": [],
+        "scene": [
+          "即食"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 677,
+        "cat": "休闲食品",
+        "subcat": "零食",
+        "name": "[干仓陈化7年]精选2018年新会产区大红皮陈皮",
+        "shop": "陈之颂广皮店",
+        "price": "389-798",
+        "sales": 7759,
+        "gmv_yuan": 4643761.5,
+        "gmv_wan": 464.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 19,
+        "cat": "休闲食品",
+        "subcat": "肉制品",
+        "name": "[口口爆汁]锋味派谢霆锋推荐黑猪肉爆汁烤肠8根/盒家庭聚餐露营野炊-DB",
+        "shop": "锋味派",
+        "price": "89-219",
+        "sales": 35432,
+        "gmv_yuan": 4414003.0,
+        "gmv_wan": 441.4,
+        "flavor": [],
+        "ingredient": [
+          "猪肉"
+        ],
+        "scene": [
+          "聚餐",
+          "户外野餐"
+        ],
+        "selling_point": [],
+        "audience": "全家",
+        "timing": ""
+      },
+      {
+        "rank": 3,
+        "cat": "休闲食品",
+        "subcat": "",
+        "name": "[到手12袋 支持试吃一袋]善缘佳油栗仁软糯香甜营养即食栗子T",
+        "shop": "善缘佳坚果店",
+        "price": "19.9-29.9",
+        "sales": 124690,
+        "gmv_yuan": 3364712.0,
+        "gmv_wan": 336.5,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "即食"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 121,
+        "cat": "休闲食品",
+        "subcat": "零食",
+        "name": "Swiss Delice瑞士狄妮诗72%黑巧克力600g家庭分享袋装推荐",
+        "shop": "诚久食品店",
+        "price": "129.9-139.9",
+        "sales": 24071,
+        "gmv_yuan": 3296497.9,
+        "gmv_wan": 329.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "全家",
+        "timing": ""
+      },
+      {
+        "rank": 787,
+        "cat": "休闲食品",
+        "subcat": "零食",
+        "name": "陈之颂[干仓陈化10年]精选新会梅江核心产区大红皮陈皮",
+        "shop": "陈之颂茶叶",
+        "price": "394-798",
+        "sales": 7028,
+        "gmv_yuan": 3042092.5,
+        "gmv_wan": 304.2,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1862,
+        "cat": "休闲食品",
+        "subcat": "",
+        "name": "刀刃严选-云南古树熟茶饼100g-1000g",
+        "shop": "云南勐海刀刃",
+        "price": "79-999",
+        "sales": 3413,
+        "gmv_yuan": 3029688.0,
+        "gmv_wan": 303.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 167,
+        "cat": "休闲食品",
+        "subcat": "",
+        "name": "[送粽子和咸鸭蛋！][溪水老鸭2只] 杨博士 皖南溪水散养放养老鸭溪水河鸭新鲜土鸭子",
+        "shop": "杨博士生鲜",
+        "price": "246-266",
+        "sales": 10734,
+        "gmv_yuan": 2840164.0,
+        "gmv_wan": 284.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "散养野生",
+          "新鲜"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 153,
+        "cat": "休闲食品",
+        "subcat": "坚果炒货",
+        "name": "[唐老板专属]新农哥大颗粒开心果225g/罐装新货原色无漂白自然开口孕妇解馋坚果配料干净休闲零食",
+        "shop": "新农哥大颗粒坚果",
+        "price": "119-149",
+        "sales": 21290,
+        "gmv_yuan": 2533510.0,
+        "gmv_wan": 253.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "有机无添加"
+        ],
+        "audience": "女性",
+        "timing": ""
+      }
+    ],
+    "饮料冲调": [
+      {
+        "rank": 2,
+        "cat": "饮料冲调",
+        "subcat": "冲调",
+        "name": "【福利价到】永和经典原味豆浆粉营养高蛋白早餐纯豆浆粉",
+        "shop": "永和豆浆冲饮",
+        "price": "89.9-99.9",
+        "sales": 127616,
+        "gmv_yuan": 12714376.4,
+        "gmv_wan": 1271.4,
+        "flavor": [
+          "咸鲜"
+        ],
+        "ingredient": [],
+        "scene": [
+          "早餐",
+          "健身"
+        ],
+        "selling_point": [
+          "高蛋白低脂"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 5,
+        "cat": "饮料冲调",
+        "subcat": "",
+        "name": "【康新牧场】 酱牛肉150g*5袋 老汤卤煮  开袋即食 健康代餐",
+        "shop": "康新牧场",
+        "price": "79.9-99.9",
+        "sales": 112253,
+        "gmv_yuan": 9597681.7,
+        "gmv_wan": 959.8,
+        "flavor": [],
+        "ingredient": [
+          "牛肉"
+        ],
+        "scene": [
+          "即食",
+          "健身"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 17,
+        "cat": "饮料冲调",
+        "subcat": "冲调",
+        "name": "【双12狂欢】南方黑芝麻糊原味/无糖 浓香美味营养早餐健康冲泡饮品",
+        "shop": "南方黑芝麻食品",
+        "price": "119.9-139.9",
+        "sales": 64744,
+        "gmv_yuan": 8570458.6,
+        "gmv_wan": 857.0,
+        "flavor": [
+          "咸鲜"
+        ],
+        "ingredient": [
+          "芝麻"
+        ],
+        "scene": [
+          "早餐"
+        ],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 29,
+        "cat": "饮料冲调",
+        "subcat": "",
+        "name": "两个月量升级肽 到手60瓶  五个女博士胶原蛋白肽EGCG饮2.0升级",
+        "shop": "五个女博士FIVE DOCTORS",
+        "price": "720-1506",
+        "sales": 8839,
+        "gmv_yuan": 7343895.0,
+        "gmv_wan": 734.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 23,
+        "cat": "饮料冲调",
+        "subcat": "果汁",
+        "name": "【痞欠专属】到手2盒/8盒/16盒贵州刺梨农特产日常补充vc开袋即饮有机刺梨汁",
+        "shop": "众锦汇集",
+        "price": "59-688",
+        "sales": 56787,
+        "gmv_yuan": 4023308.0,
+        "gmv_wan": 402.3,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "有机无添加",
+          "地理标志"
+        ],
+        "audience": "",
+        "timing": "全年"
+      },
+      {
+        "rank": 1700,
+        "cat": "饮料冲调",
+        "subcat": "果汁",
+        "name": "[振浩专属]泷滋宝贵州刺梨NFC*100%鲜萃原汁",
+        "shop": "贵州刺梨-泷滋宝",
+        "price": "994-999",
+        "sales": 3704,
+        "gmv_yuan": 3696291.0,
+        "gmv_wan": 369.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 581,
+        "cat": "饮料冲调",
+        "subcat": "冲调",
+        "name": "[618专属 省钱必买]张宝山铁棍山药粉600g*3罐河南焦作特产正宗健康滋补品代餐粉",
+        "shop": "张宝山非遗山药",
+        "price": "389-599",
+        "sales": 8722,
+        "gmv_yuan": 3459959.0,
+        "gmv_wan": 346.0,
+        "flavor": [],
+        "ingredient": [
+          "铁棍山药",
+          "山药"
+        ],
+        "scene": [
+          "健身",
+          "秋冬进补"
+        ],
+        "selling_point": [
+          "地理标志"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 589,
+        "cat": "饮料冲调",
+        "subcat": "",
+        "name": "徐楠楠苏莎黄精黄芪三文鱼水解蛋白肽饮品",
+        "shop": "徐楠楠蔻辰集团企业店",
+        "price": "389.9-999.9",
+        "sales": 8637,
+        "gmv_yuan": 3430716.3,
+        "gmv_wan": 343.1,
+        "flavor": [],
+        "ingredient": [
+          "三文鱼"
+        ],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 37,
+        "cat": "饮料冲调",
+        "subcat": "冲调",
+        "name": "袅烟阁黑豆黑米黑芝麻黑枸杞黑枣黑桑葚即食营养早餐代餐粉五黑粉25g*10包袅烟阁",
+        "shop": "袅烟阁慈行",
+        "price": "21.8-159.8",
+        "sales": 45812,
+        "gmv_yuan": 3249713.13,
+        "gmv_wan": 325.0,
+        "flavor": [],
+        "ingredient": [
+          "枸杞",
+          "芝麻",
+          "黑豆"
+        ],
+        "scene": [
+          "早餐",
+          "即食",
+          "健身"
+        ],
+        "selling_point": [
+          "即食方便"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 55,
+        "cat": "饮料冲调",
+        "subcat": "果汁",
+        "name": "2[国产]田野说125ml芹菜汁羽衣甘蓝混合果蔬汁鲜榨果汁蔬菜汁饮料",
+        "shop": "田野说饮品",
+        "price": "81.9-239.9",
+        "sales": 37293,
+        "gmv_yuan": 3169420.7,
+        "gmv_wan": 316.9,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      }
+    ],
+    "乳品冷饮": [
+      {
+        "rank": 119,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "蒙牛一米八八儿童成长高钙配方奶粉 2袋装*300克 CBP 乳铁蛋白 叶黄素",
+        "shop": "未命名小店",
+        "price": "388-398",
+        "sales": 24250,
+        "gmv_yuan": 9607940.0,
+        "gmv_wan": 960.8,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "儿童"
+        ],
+        "selling_point": [],
+        "audience": "儿童",
+        "timing": ""
+      },
+      {
+        "rank": 195,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "Symbiotics升倍羊奶粉 450g/罐 原装进口 新西兰银蕨认证",
+        "shop": "Symbiotics升倍国际店",
+        "price": "158-799",
+        "sales": 18009,
+        "gmv_yuan": 7547316.97,
+        "gmv_wan": 754.7,
+        "flavor": [],
+        "ingredient": [
+          "羊奶"
+        ],
+        "scene": [],
+        "selling_point": [
+          "进口"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1604,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "【相宜溯源专属】有机富硒低GI新疆优驼珍稀纯驼乳粉6罐+至臻4罐",
+        "shop": "优驼优选",
+        "price": "1899",
+        "sales": 3873,
+        "gmv_yuan": 7354827.0,
+        "gmv_wan": 735.5,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "有机无添加"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1962,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "【免费试喝2条 】有机纯驼奶粉高钙/富硒原始黄金新疆正宗驼奶粉300g一罐",
+        "shop": "原始黄金",
+        "price": "619-11988",
+        "sales": 3265,
+        "gmv_yuan": 5948386.07,
+        "gmv_wan": 594.8,
+        "flavor": [],
+        "ingredient": [
+          "驼奶"
+        ],
+        "scene": [],
+        "selling_point": [
+          "有机无添加"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 539,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "[官方正品] 蒙牛小蛮腰脱脂奶粉0蔗糖",
+        "shop": "小蛮腰营养奶粉",
+        "price": "99-1188",
+        "sales": 9153,
+        "gmv_yuan": 4873607.0,
+        "gmv_wan": 487.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "高蛋白低脂"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 506,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "【到手三大罐】华夏丝路有机纯驼乳粉 320g/罐",
+        "shop": "华夏丝路",
+        "price": "446-2988",
+        "sales": 9676,
+        "gmv_yuan": 4789620.0,
+        "gmv_wan": 479.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "有机无添加"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 275,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "[官方正品]蒙牛小蛮腰脱脂奶粉冲调奶粉0蔗糖",
+        "shop": "小蛮腰奶粉",
+        "price": "99-1188",
+        "sales": 14702,
+        "gmv_yuan": 4564867.0,
+        "gmv_wan": 456.5,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "高蛋白低脂"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 52,
+        "cat": "乳品冷饮",
+        "subcat": "奶酪",
+        "name": "1[开学季]妙可蓝多捷捷高奶酪小金袋儿童营养好吸收成长配方3-15岁DSPW1",
+        "shop": "妙可蓝多",
+        "price": "99-199",
+        "sales": 38819,
+        "gmv_yuan": 4037176.0,
+        "gmv_wan": 403.7,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "儿童"
+        ],
+        "selling_point": [],
+        "audience": "儿童",
+        "timing": ""
+      },
+      {
+        "rank": 327,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "[唐老板专属]认养一头牛免疫球蛋白营养奶粉 500g/罐 礼盒装",
+        "shop": "认养一头牛",
+        "price": "294-299",
+        "sales": 13233,
+        "gmv_yuan": 3955897.0,
+        "gmv_wan": 395.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "礼盒送礼"
+        ],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1564,
+        "cat": "乳品冷饮",
+        "subcat": "奶粉",
+        "name": "（贺县令）新疆有机双峰纯驼奶粉320克1袋",
+        "shop": "贺县令新疆纯驼奶粉",
+        "price": "897-1200",
+        "sales": 3955,
+        "gmv_yuan": 3889560.0,
+        "gmv_wan": 389.0,
+        "flavor": [],
+        "ingredient": [
+          "驼奶"
+        ],
+        "scene": [],
+        "selling_point": [
+          "有机无添加"
+        ],
+        "audience": "",
+        "timing": ""
+      }
+    ],
+    "宠物生活": [
+      {
+        "rank": 60,
+        "cat": "宠物生活",
+        "subcat": "宠物零食",
+        "name": "卫仕爆爆桶囤货装 深海胶原全价全阶段主食冻干21天爆毛爆长肉",
+        "shop": "卫仕Nourse",
+        "price": "509-717",
+        "sales": 2244,
+        "gmv_yuan": 1552609.46,
+        "gmv_wan": 155.3,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 13,
+        "cat": "宠物生活",
+        "subcat": "宠物营养",
+        "name": "【温和排毛3.0】化毛魔方猫咪排毛产品化毛专用化毛膏升级冻干",
+        "shop": "卫仕Nourse",
+        "price": "129-409",
+        "sales": 6897,
+        "gmv_yuan": 1059563.0,
+        "gmv_wan": 106.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "宠物主",
+        "timing": ""
+      },
+      {
+        "rank": 1,
+        "cat": "宠物生活",
+        "subcat": "宠物营养",
+        "name": "派斯乐内外同驱虫药狗狗猫咪体内外一体驱虫吡虫啉莫昔克丁滴剂",
+        "shop": "上海梦薇宠物用品有限公司",
+        "price": "31-129",
+        "sales": 27076,
+        "gmv_yuan": 1055964.0,
+        "gmv_wan": 105.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "宠物主",
+        "timing": ""
+      },
+      {
+        "rank": 3,
+        "cat": "宠物生活",
+        "subcat": "猫粮",
+        "name": "泽囿【猫饭】主食猫饭湿粮餐包全价全期·自有天地·0添加系列",
+        "shop": "泽囿宠物食品",
+        "price": "41.8-59.8",
+        "sales": 16606,
+        "gmv_yuan": 933283.8,
+        "gmv_wan": 93.3,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "有机无添加"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 31,
+        "cat": "宠物生活",
+        "subcat": "猫粮",
+        "name": "[注心爆爆袋5包囤货装]鲜肉猫粮深海胶原爆毛爆肌系列萌宠好物组合囤货装",
+        "shop": "卫仕Nourse",
+        "price": "87-459",
+        "sales": 3432,
+        "gmv_yuan": 695125.0,
+        "gmv_wan": 69.5,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 68,
+        "cat": "宠物生活",
+        "subcat": "狗粮",
+        "name": "【爆爆袋中大型犬粮20斤装】卫仕每日营养爆毛爆肌肉5倍胶原狗粮",
+        "shop": "卫仕Nourse",
+        "price": "351-369",
+        "sales": 1895,
+        "gmv_yuan": 693846.0,
+        "gmv_wan": 69.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 78,
+        "cat": "宠物生活",
+        "subcat": "宠物零食",
+        "name": "【卫仕化毛魔方升级版】冻干颗粒以排代吐好吸收猫用调理肠胃化毛球冻干",
+        "shop": "卫仕Nourse",
+        "price": "399-679",
+        "sales": 1636,
+        "gmv_yuan": 659106.0,
+        "gmv_wan": 65.9,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 15,
+        "cat": "宠物生活",
+        "subcat": "猫粮",
+        "name": "卫仕爆爆袋猫粮全价冻干注心鲜肉成幼猫成猫粮3斤",
+        "shop": "卫仕Nourse",
+        "price": "84-299",
+        "sales": 6592,
+        "gmv_yuan": 643513.0,
+        "gmv_wan": 64.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1983,
+        "cat": "宠物生活",
+        "subcat": "宠物零食",
+        "name": "【官方正品】虎眼万年青冻干粉",
+        "shop": "回芝堂养生滋补企业店",
+        "price": "199",
+        "sales": 3233,
+        "gmv_yuan": 643367.0,
+        "gmv_wan": 64.3,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 46,
+        "cat": "宠物生活",
+        "subcat": "宠物零食",
+        "name": "卫仕爆爆桶 深海胶原全价全阶段主食冻干21天爆毛爆长肉宠物主食冻干",
+        "shop": "卫仕Nourse",
+        "price": "121-239",
+        "sales": 2695,
+        "gmv_yuan": 641179.0,
+        "gmv_wan": 64.1,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "宠物主",
+        "timing": ""
+      }
+    ],
+    "茗茶": [
+      {
+        "rank": 1173,
+        "cat": "茗茶",
+        "subcat": "花茶",
+        "name": "【新华网专属】明前芽头 2025年新茶特级高山莓茶家用珍品",
+        "shop": "长寿村-晏村长莓茶",
+        "price": "199-992",
+        "sales": 5030,
+        "gmv_yuan": 1995821.0,
+        "gmv_wan": 199.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 994,
+        "cat": "茗茶",
+        "subcat": "白茶",
+        "name": "白大师 · 正宗福鼎白茶茶叶礼盒寿眉龙福2018年寿眉龙珠组合送礼",
+        "shop": "白大师白茶",
+        "price": "299-1225",
+        "sales": 5772,
+        "gmv_yuan": 1725828.0,
+        "gmv_wan": 172.6,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [
+          "礼盒送礼"
+        ],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 145,
+        "cat": "茗茶",
+        "subcat": "花茶",
+        "name": "顺丰发货2026年云南精选头采冻干墨红玫瑰花茶 无添加无硫熏50克100克",
+        "shop": "音佬花谷",
+        "price": "39.9-499",
+        "sales": 21891,
+        "gmv_yuan": 1530380.23,
+        "gmv_wan": 153.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [
+          "有机无添加",
+          "冷链配送"
+        ],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1367,
+        "cat": "茗茶",
+        "subcat": "白茶",
+        "name": "白大师 · 正宗福鼎白茶宫迎珍茗2020年罗汉果白茶龙珠袋泡茶自饮口粮茶",
+        "shop": "白大师白茶",
+        "price": "89-1152",
+        "sales": 4454,
+        "gmv_yuan": 1309476.0,
+        "gmv_wan": 130.9,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 796,
+        "cat": "茗茶",
+        "subcat": "",
+        "name": "（喜月）清承堂2025清承雪芽 茉莉花香馥郁鲜灵花香（袋装）",
+        "shop": "清承堂茶叶店",
+        "price": "133",
+        "sales": 6967,
+        "gmv_yuan": 939801.0,
+        "gmv_wan": 94.0,
+        "flavor": [
+          "清新"
+        ],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 391,
+        "cat": "茗茶",
+        "subcat": "红茶",
+        "name": "刀刃严选-云南滇红古树红茶100g-1000g",
+        "shop": "云南勐海刀刃",
+        "price": "50-999",
+        "sales": 11772,
+        "gmv_yuan": 799968.0,
+        "gmv_wan": 80.0,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 599,
+        "cat": "茗茶",
+        "subcat": "普洱",
+        "name": "[小野马专属][顺年陈]十一年原料糯香布朗熟沱云南大叶种熟茶500g/提（带茶样茶针）",
+        "shop": "兴发茶业",
+        "price": "62-68",
+        "sales": 8529,
+        "gmv_yuan": 534099.0,
+        "gmv_wan": 53.4,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": "国庆"
+      },
+      {
+        "rank": 902,
+        "cat": "茗茶",
+        "subcat": "红茶",
+        "name": "[八马茶业]欢腾系列武夷红茶特级金骏眉茶叶小罐装110g*3罐",
+        "shop": "八马茶业",
+        "price": "74-199",
+        "sales": 6291,
+        "gmv_yuan": 528262.0,
+        "gmv_wan": 52.8,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 1228,
+        "cat": "茗茶",
+        "subcat": "红茶",
+        "name": "[镇店之宝]特级琥珀金丝云南滇红凤庆红茶",
+        "shop": "凤庆滇红茶业",
+        "price": "103-144",
+        "sales": 4852,
+        "gmv_yuan": 523266.0,
+        "gmv_wan": 52.3,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      },
+      {
+        "rank": 405,
+        "cat": "茗茶",
+        "subcat": "普洱",
+        "name": "【冬藏·福韵】三鹤六堡茶2020年陈化特级散茶200克/罐广西梧州茶厂黑茶",
+        "shop": "三鹤",
+        "price": "39.9-88",
+        "sales": 11345,
+        "gmv_yuan": 475345.8,
+        "gmv_wan": 47.5,
+        "flavor": [],
+        "ingredient": [],
+        "scene": [],
+        "selling_point": [],
+        "audience": "",
+        "timing": ""
+      }
+    ]
+  },
+  "keyword_stats": {
+    "flavor": {
+      "by_category": {
+        "酒类": [
+          {
+            "flavor": "酱卤咸香",
+            "gmv": 8787786.34
+          },
+          {
+            "flavor": "酒香",
+            "gmv": 3396487.5
+          },
+          {
+            "flavor": "甜味",
+            "gmv": 1277574.3
+          },
+          {
+            "flavor": "麻辣酸辣",
+            "gmv": 814584.64
+          },
+          {
+            "flavor": "酸甜果味",
+            "gmv": 365479.89
+          },
+          {
+            "flavor": "清新",
+            "gmv": 195944.0
+          },
+          {
+            "flavor": "咸鲜",
+            "gmv": 73771.0
+          }
+        ],
+        "生鲜": [
+          {
+            "flavor": "榴莲",
+            "gmv": 41439573.13
+          },
+          {
+            "flavor": "咸鲜",
+            "gmv": 5325515.2
+          },
+          {
+            "flavor": "酒香",
+            "gmv": 4692466.7
+          },
+          {
+            "flavor": "酸甜果味",
+            "gmv": 3111175.84
+          },
+          {
+            "flavor": "麻辣酸辣",
+            "gmv": 1669742.1
+          },
+          {
+            "flavor": "酱卤咸香",
+            "gmv": 1008878.7
+          },
+          {
+            "flavor": "辛香",
+            "gmv": 297798.2
+          },
+          {
+            "flavor": "烟熏",
+            "gmv": 86541.3
+          }
+        ],
+        "传统滋补": [
+          {
+            "flavor": "咸鲜",
+            "gmv": 7437932.7
+          },
+          {
+            "flavor": "烟熏",
+            "gmv": 5335522.7
+          },
+          {
+            "flavor": "清新",
+            "gmv": 858339.7
+          },
+          {
+            "flavor": "酱卤咸香",
+            "gmv": 290814.5
+          },
+          {
+            "flavor": "奶香",
+            "gmv": 4285.0
+          }
+        ],
+        "保健食品/营养补充": [
+          {
+            "flavor": "酸甜果味",
+            "gmv": 27425253.8
+          },
+          {
+            "flavor": "酱卤咸香",
+            "gmv": 4368929.5
+          },
+          {
+            "flavor": "清新",
+            "gmv": 4020924.28
+          },
+          {
+            "flavor": "咸鲜",
+            "gmv": 5492.4
+          },
+          {
+            "flavor": "奶香",
+            "gmv": 319.2
+          }
+        ],
+        "乳品冷饮": [
+          {
+            "flavor": "咸鲜",
+            "gmv": 6720419.41
+          },
+          {
+            "flavor": "奶香",
+            "gmv": 2747552.2
+          },
+          {
+            "flavor": "榴莲",
+            "gmv": 494940.7
+          },
+          {
+            "flavor": "酸甜果味",
+            "gmv": 486868.8
+          },
+          {
+            "flavor": "甜味",
+            "gmv": 368517.6
+          },
+          {
+            "flavor": "清新",
+            "gmv": 181185.9
+          }
+        ],
+        "茗茶": [
+          {
+            "flavor": "清新",
+            "gmv": 1443897.8
+          },
+          {
+            "flavor": "麻辣酸辣",
+            "gmv": 76523.1
+          }
+        ],
+        "饮料冲调": [
+          {
+            "flavor": "咸鲜",
+            "gmv": 27862439.5
+          },
+          {
+            "flavor": "酱卤咸香",
+            "gmv": 1042141.8
+          },
+          {
+            "flavor": "酸甜果味",
+            "gmv": 125447.62
+          },
+          {
+            "flavor": "麻辣酸辣",
+            "gmv": 83691.7
+          }
+        ],
+        "宠物生活": [
+          {
+            "flavor": "清新",
+            "gmv": 50417.6
+          },
+          {
+            "flavor": "奶香",
+            "gmv": 20865.6
+          },
+          {
+            "flavor": "咸鲜",
+            "gmv": 6150.8
+          }
+        ],
+        "粮油调味速食": [
+          {
+            "flavor": "麻辣酸辣",
+            "gmv": 36770402.1
+          },
+          {
+            "flavor": "酱卤咸香",
+            "gmv": 26075253.63
+          },
+          {
+            "flavor": "咸鲜",
+            "gmv": 14820131.86
+          },
+          {
+            "flavor": "辛香",
+            "gmv": 14325825.11
+          },
+          {
+            "flavor": "椰香",
+            "gmv": 9201384.6
+          },
+          {
+            "flavor": "清新",
+            "gmv": 7192906.79
+          },
+          {
+            "flavor": "烟熏",
+            "gmv": 4760822.22
+          },
+          {
+            "flavor": "酸甜果味",
+            "gmv": 1979952.41
+          },
+          {
+            "flavor": "酒香",
+            "gmv": 203457.8
+          },
+          {
+            "flavor": "甜味",
+            "gmv": 160626.8
+          }
+        ],
+        "休闲食品": [
+          {
+            "flavor": "辛香",
+            "gmv": 8566071.0
+          },
+          {
+            "flavor": "咸鲜",
+            "gmv": 7819577.9
+          },
+          {
+            "flavor": "麻辣酸辣",
+            "gmv": 4878975.6
+          },
+          {
+            "flavor": "榴莲",
+            "gmv": 3904618.32
+          },
+          {
+            "flavor": "酱卤咸香",
+            "gmv": 3729708.16
+          },
+          {
+            "flavor": "烟熏",
+            "gmv": 2860358.8
+          },
+          {
+            "flavor": "清新",
+            "gmv": 2416658.5
+          },
+          {
+            "flavor": "奶香",
+            "gmv": 1021479.2
+          },
+          {
+            "flavor": "酸甜果味",
+            "gmv": 825436.9
+          },
+          {
+            "flavor": "椰香",
+            "gmv": 118124.2
+          }
+        ]
+      },
+      "global_top_flavors": [
+        {
+          "flavor": "咸鲜",
+          "total_gmv": 70071430.77
+        },
+        {
+          "flavor": "榴莲",
+          "total_gmv": 45839132.15
+        },
+        {
+          "flavor": "酱卤咸香",
+          "total_gmv": 45303512.63
+        },
+        {
+          "flavor": "麻辣酸辣",
+          "total_gmv": 44293919.24
+        },
+        {
+          "flavor": "酸甜果味",
+          "total_gmv": 34319615.26
+        },
+        {
+          "flavor": "辛香",
+          "total_gmv": 23189694.31
+        },
+        {
+          "flavor": "清新",
+          "total_gmv": 16360274.57
+        },
+        {
+          "flavor": "烟熏",
+          "total_gmv": 13043245.02
+        },
+        {
+          "flavor": "椰香",
+          "total_gmv": 9319508.8
+        },
+        {
+          "flavor": "酒香",
+          "total_gmv": 8292412.0
+        },
+        {
+          "flavor": "奶香",
+          "total_gmv": 3794501.2
+        },
+        {
+          "flavor": "甜味",
+          "total_gmv": 1806718.7
+        }
+      ]
+    },
+    "scene": {
+      "by_category": {
+        "酒类": [
+          {
+            "scene": "礼盒送礼",
+            "gmv": 85613903.32
+          },
+          {
+            "scene": "聚餐",
+            "gmv": 15269021.84
+          },
+          {
+            "scene": "即食",
+            "gmv": 3756642.8
+          },
+          {
+            "scene": "秋冬进补",
+            "gmv": 2464630.6
+          },
+          {
+            "scene": "中秋",
+            "gmv": 1481996.1
+          },
+          {
+            "scene": "下饭",
+            "gmv": 995569.64
+          },
+          {
+            "scene": "户外野餐",
+            "gmv": 871152.4
+          },
+          {
+            "scene": "夏季消暑",
+            "gmv": 321773.0
+          },
+          {
+            "scene": "国庆",
+            "gmv": 106298.0
+          },
+          {
+            "scene": "健身",
+            "gmv": 80168.0
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 4628.0
+          }
+        ],
+        "传统滋补": [
+          {
+            "scene": "即食",
+            "gmv": 63492692.68
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 48123577.95
+          },
+          {
+            "scene": "秋冬进补",
+            "gmv": 26238483.21
+          },
+          {
+            "scene": "早餐",
+            "gmv": 21078298.8
+          },
+          {
+            "scene": "煲汤",
+            "gmv": 15122981.85
+          },
+          {
+            "scene": "健身",
+            "gmv": 2376152.54
+          },
+          {
+            "scene": "儿童",
+            "gmv": 1694129.6
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 1477619.4
+          },
+          {
+            "scene": "夜宵",
+            "gmv": 388452.0
+          },
+          {
+            "scene": "夏季消暑",
+            "gmv": 4285.0
+          }
+        ],
+        "休闲食品": [
+          {
+            "scene": "即食",
+            "gmv": 31797165.72
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 20652568.72
+          },
+          {
+            "scene": "早餐",
+            "gmv": 11985003.89
+          },
+          {
+            "scene": "儿童",
+            "gmv": 9291356.48
+          },
+          {
+            "scene": "煲汤",
+            "gmv": 8168840.49
+          },
+          {
+            "scene": "聚餐",
+            "gmv": 4908997.0
+          },
+          {
+            "scene": "健身",
+            "gmv": 4740809.74
+          },
+          {
+            "scene": "户外野餐",
+            "gmv": 4740331.8
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 2453361.8
+          },
+          {
+            "scene": "中秋",
+            "gmv": 2099603.94
+          },
+          {
+            "scene": "下饭",
+            "gmv": 538806.74
+          },
+          {
+            "scene": "夜宵",
+            "gmv": 434899.0
+          },
+          {
+            "scene": "秋冬进补",
+            "gmv": 353741.1
+          },
+          {
+            "scene": "夏季消暑",
+            "gmv": 104934.1
+          }
+        ],
+        "保健食品/营养补充": [
+          {
+            "scene": "即食",
+            "gmv": 51307612.0
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 23227355.5
+          },
+          {
+            "scene": "健身",
+            "gmv": 11806613.43
+          },
+          {
+            "scene": "儿童",
+            "gmv": 4074174.0
+          },
+          {
+            "scene": "早餐",
+            "gmv": 3875278.4
+          },
+          {
+            "scene": "秋冬进补",
+            "gmv": 2936935.7
+          },
+          {
+            "scene": "中秋",
+            "gmv": 519786.1
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 384367.0
+          },
+          {
+            "scene": "煲汤",
+            "gmv": 291815.2
+          },
+          {
+            "scene": "夏季消暑",
+            "gmv": 16414.0
+          },
+          {
+            "scene": "国庆",
+            "gmv": 0.0
+          }
+        ],
+        "饮料冲调": [
+          {
+            "scene": "健身",
+            "gmv": 79619275.96
+          },
+          {
+            "scene": "早餐",
+            "gmv": 56067635.17
+          },
+          {
+            "scene": "即食",
+            "gmv": 33058685.28
+          },
+          {
+            "scene": "儿童",
+            "gmv": 14919487.84
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 9915085.25
+          },
+          {
+            "scene": "秋冬进补",
+            "gmv": 5942644.9
+          },
+          {
+            "scene": "中秋",
+            "gmv": 2448769.1
+          },
+          {
+            "scene": "聚餐",
+            "gmv": 2448769.1
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 1042141.8
+          },
+          {
+            "scene": "夏季消暑",
+            "gmv": 686282.9
+          },
+          {
+            "scene": "夜宵",
+            "gmv": 430858.46
+          },
+          {
+            "scene": "户外野餐",
+            "gmv": 117040.5
+          }
+        ],
+        "茗茶": [
+          {
+            "scene": "礼盒送礼",
+            "gmv": 2453442.0
+          },
+          {
+            "scene": "秋冬进补",
+            "gmv": 298762.0
+          },
+          {
+            "scene": "健身",
+            "gmv": 25964.67
+          }
+        ],
+        "宠物生活": [
+          {
+            "scene": "健身",
+            "gmv": 1298463.65
+          },
+          {
+            "scene": "儿童",
+            "gmv": 480459.02
+          },
+          {
+            "scene": "中秋",
+            "gmv": 23097.0
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 4126.5
+          },
+          {
+            "scene": "煲汤",
+            "gmv": 1696.0
+          },
+          {
+            "scene": "国庆",
+            "gmv": 1625.0
+          },
+          {
+            "scene": "即食",
+            "gmv": 217.0
+          },
+          {
+            "scene": "夏季消暑",
+            "gmv": 149.4
+          }
+        ],
+        "乳品冷饮": [
+          {
+            "scene": "健身",
+            "gmv": 19559851.9
+          },
+          {
+            "scene": "儿童",
+            "gmv": 17994867.0
+          },
+          {
+            "scene": "早餐",
+            "gmv": 11878727.14
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 9931957.45
+          },
+          {
+            "scene": "即食",
+            "gmv": 2618417.75
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 480172.6
+          },
+          {
+            "scene": "夜宵",
+            "gmv": 355199.95
+          }
+        ],
+        "粮油调味速食": [
+          {
+            "scene": "即食",
+            "gmv": 116108328.84
+          },
+          {
+            "scene": "早餐",
+            "gmv": 30900369.94
+          },
+          {
+            "scene": "下饭",
+            "gmv": 21374333.77
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 20865093.37
+          },
+          {
+            "scene": "健身",
+            "gmv": 17199151.73
+          },
+          {
+            "scene": "儿童",
+            "gmv": 6953906.97
+          },
+          {
+            "scene": "夜宵",
+            "gmv": 2918594.2
+          },
+          {
+            "scene": "聚餐",
+            "gmv": 1718823.9
+          },
+          {
+            "scene": "中秋",
+            "gmv": 1563929.67
+          },
+          {
+            "scene": "煲汤",
+            "gmv": 1301581.24
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 1281286.7
+          },
+          {
+            "scene": "秋冬进补",
+            "gmv": 256865.8
+          },
+          {
+            "scene": "户外野餐",
+            "gmv": 227089.9
+          },
+          {
+            "scene": "夏季消暑",
+            "gmv": 197651.6
+          },
+          {
+            "scene": "一人食",
+            "gmv": 150635.8
+          }
+        ],
+        "生鲜": [
+          {
+            "scene": "即食",
+            "gmv": 12920765.04
+          },
+          {
+            "scene": "礼盒送礼",
+            "gmv": 11027668.11
+          },
+          {
+            "scene": "早餐",
+            "gmv": 5811142.35
+          },
+          {
+            "scene": "儿童",
+            "gmv": 4693545.21
+          },
+          {
+            "scene": "夜宵",
+            "gmv": 2085031.7
+          },
+          {
+            "scene": "煲汤",
+            "gmv": 1943253.3
+          },
+          {
+            "scene": "健身",
+            "gmv": 1604915.15
+          },
+          {
+            "scene": "户外野餐",
+            "gmv": 717225.9
+          },
+          {
+            "scene": "下午茶",
+            "gmv": 705198.7
+          },
+          {
+            "scene": "聚餐",
+            "gmv": 470390.8
+          },
+          {
+            "scene": "下饭",
+            "gmv": 463028.5
+          },
+          {
+            "scene": "中秋",
+            "gmv": 447476.6
+          }
+        ]
+      },
+      "global_top_scenes": [
+        {
+          "scene": "即食",
+          "total_gmv": 315060527.11
+        },
+        {
+          "scene": "礼盒送礼",
+          "total_gmv": 231814778.17
+        },
+        {
+          "scene": "早餐",
+          "total_gmv": 141596455.69
+        },
+        {
+          "scene": "健身",
+          "total_gmv": 138311366.77
+        },
+        {
+          "scene": "儿童",
+          "total_gmv": 60101926.12
+        },
+        {
+          "scene": "秋冬进补",
+          "total_gmv": 38492063.31
+        },
+        {
+          "scene": "煲汤",
+          "total_gmv": 26830168.08
+        },
+        {
+          "scene": "聚餐",
+          "total_gmv": 24816002.64
+        },
+        {
+          "scene": "下饭",
+          "total_gmv": 23371738.65
+        },
+        {
+          "scene": "中秋",
+          "total_gmv": 8584658.51
+        },
+        {
+          "scene": "下午茶",
+          "total_gmv": 7828776.0
+        },
+        {
+          "scene": "户外野餐",
+          "total_gmv": 6672840.5
+        },
+        {
+          "scene": "夜宵",
+          "total_gmv": 6613035.31
+        },
+        {
+          "scene": "夏季消暑",
+          "total_gmv": 1331490.0
+        },
+        {
+          "scene": "一人食",
+          "total_gmv": 150635.8
+        }
+      ]
+    },
+    "ingredient": {
+      "top_ingredients": [
+        {
+          "ingredient": "虾",
+          "total_gmv": 95598597.14,
+          "sku_count": 272,
+          "appears_in_cats": [
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "茗茶",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 9
+        },
+        {
+          "ingredient": "牛肉",
+          "total_gmv": 90620922.89,
+          "sku_count": 191,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 8
+        },
+        {
+          "ingredient": "芝麻",
+          "total_gmv": 63506537.46,
+          "sku_count": 83,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "粮油调味速食",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 7
+        },
+        {
+          "ingredient": "银耳",
+          "total_gmv": 52228707.35,
+          "sku_count": 43,
+          "appears_in_cats": [
+            "传统滋补",
+            "保健食品/营养补充",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 4
+        },
+        {
+          "ingredient": "牛奶",
+          "total_gmv": 48746623.04,
+          "sku_count": 103,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 2
+        },
+        {
+          "ingredient": "榴莲",
+          "total_gmv": 45839132.15,
+          "sku_count": 59,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "生鲜"
+          ],
+          "cross_cat_count": 3
+        },
+        {
+          "ingredient": "猪肉",
+          "total_gmv": 33863520.41,
+          "sku_count": 91,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "酒类"
+          ],
+          "cross_cat_count": 8
+        },
+        {
+          "ingredient": "山药",
+          "total_gmv": 31724269.45,
+          "sku_count": 94,
+          "appears_in_cats": [
+            "传统滋补",
+            "保健食品/营养补充",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 3
+        },
+        {
+          "ingredient": "核桃",
+          "total_gmv": 30924901.47,
+          "sku_count": 77,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 6
+        },
+        {
+          "ingredient": "枸杞",
+          "total_gmv": 30850865.19,
+          "sku_count": 72,
+          "appears_in_cats": [
+            "传统滋补",
+            "保健食品/营养补充",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 4
+        },
+        {
+          "ingredient": "草莓",
+          "total_gmv": 30841329.1,
+          "sku_count": 69,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "保健食品/营养补充",
+            "生鲜"
+          ],
+          "cross_cat_count": 4
+        },
+        {
+          "ingredient": "葡萄",
+          "total_gmv": 26156788.93,
+          "sku_count": 218,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "保健食品/营养补充",
+            "生鲜",
+            "粮油调味速食",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 7
+        },
+        {
+          "ingredient": "黑豆",
+          "total_gmv": 23458606.5,
+          "sku_count": 22,
+          "appears_in_cats": [
+            "传统滋补",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 2
+        },
+        {
+          "ingredient": "铁棍山药",
+          "total_gmv": 20868665.05,
+          "sku_count": 58,
+          "appears_in_cats": [
+            "传统滋补",
+            "保健食品/营养补充",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 3
+        },
+        {
+          "ingredient": "驼奶",
+          "total_gmv": 17504214.47,
+          "sku_count": 13,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 2
+        },
+        {
+          "ingredient": "羊肉",
+          "total_gmv": 17327012.9,
+          "sku_count": 17,
+          "appears_in_cats": [
+            "生鲜",
+            "粮油调味速食"
+          ],
+          "cross_cat_count": 2
+        },
+        {
+          "ingredient": "松露",
+          "total_gmv": 16162800.12,
+          "sku_count": 31,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "保健食品/营养补充",
+            "生鲜",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 6
+        },
+        {
+          "ingredient": "鳕鱼",
+          "total_gmv": 15447979.8,
+          "sku_count": 39,
+          "appears_in_cats": [
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 7
+        },
+        {
+          "ingredient": "蓝莓",
+          "total_gmv": 15284360.02,
+          "sku_count": 94,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "生鲜",
+            "粮油调味速食",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 8
+        },
+        {
+          "ingredient": "三文鱼",
+          "total_gmv": 13916553.9,
+          "sku_count": 68,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 7
+        },
+        {
+          "ingredient": "红枣",
+          "total_gmv": 13546854.7,
+          "sku_count": 42,
+          "appears_in_cats": [
+            "传统滋补",
+            "保健食品/营养补充",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 4
+        },
+        {
+          "ingredient": "鸡肉",
+          "total_gmv": 12860567.2,
+          "sku_count": 239,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 8
+        },
+        {
+          "ingredient": "蟹",
+          "total_gmv": 12639789.54,
+          "sku_count": 37,
+          "appears_in_cats": [
+            "休闲食品",
+            "传统滋补",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 7
+        },
+        {
+          "ingredient": "羊奶",
+          "total_gmv": 12155559.37,
+          "sku_count": 104,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "保健食品/营养补充",
+            "宠物生活",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 6
+        },
+        {
+          "ingredient": "桂圆",
+          "total_gmv": 11750613.43,
+          "sku_count": 23,
+          "appears_in_cats": [
+            "传统滋补",
+            "保健食品/营养补充",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 3
+        },
+        {
+          "ingredient": "花生",
+          "total_gmv": 9970903.21,
+          "sku_count": 26,
+          "appears_in_cats": [
+            "休闲食品",
+            "传统滋补",
+            "宠物生活",
+            "粮油调味速食",
+            "酒类"
+          ],
+          "cross_cat_count": 5
+        },
+        {
+          "ingredient": "红薯",
+          "total_gmv": 9727387.91,
+          "sku_count": 20,
+          "appears_in_cats": [
+            "休闲食品",
+            "生鲜",
+            "粮油调味速食"
+          ],
+          "cross_cat_count": 3
+        },
+        {
+          "ingredient": "竹荪",
+          "total_gmv": 9663833.3,
+          "sku_count": 12,
+          "appears_in_cats": [
+            "传统滋补",
+            "酒类"
+          ],
+          "cross_cat_count": 2
+        },
+        {
+          "ingredient": "鱼肉",
+          "total_gmv": 9047621.24,
+          "sku_count": 35,
+          "appears_in_cats": [
+            "休闲食品",
+            "保健食品/营养补充",
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 6
+        },
+        {
+          "ingredient": "带鱼",
+          "total_gmv": 7444840.36,
+          "sku_count": 24,
+          "appears_in_cats": [
+            "宠物生活",
+            "生鲜",
+            "粮油调味速食"
+          ],
+          "cross_cat_count": 3
+        },
+        {
+          "ingredient": "樱桃",
+          "total_gmv": 6888104.7,
+          "sku_count": 31,
+          "appears_in_cats": [
+            "保健食品/营养补充",
+            "生鲜"
+          ],
+          "cross_cat_count": 2
+        },
+        {
+          "ingredient": "百合",
+          "total_gmv": 5834703.05,
+          "sku_count": 41,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "传统滋补",
+            "保健食品/营养补充",
+            "茗茶",
+            "酒类",
+            "饮料冲调"
+          ],
+          "cross_cat_count": 6
+        },
+        {
+          "ingredient": "莲子",
+          "total_gmv": 4600977.0,
+          "sku_count": 14,
+          "appears_in_cats": [
+            "传统滋补"
+          ],
+          "cross_cat_count": 1
+        },
+        {
+          "ingredient": "木耳",
+          "total_gmv": 3234316.89,
+          "sku_count": 11,
+          "appears_in_cats": [
+            "传统滋补"
+          ],
+          "cross_cat_count": 1
+        },
+        {
+          "ingredient": "羊肚菌",
+          "total_gmv": 2451350.4,
+          "sku_count": 5,
+          "appears_in_cats": [
+            "传统滋补"
+          ],
+          "cross_cat_count": 1
+        },
+        {
+          "ingredient": "鸭肉",
+          "total_gmv": 1840754.58,
+          "sku_count": 87,
+          "appears_in_cats": [
+            "乳品冷饮",
+            "休闲食品",
+            "保健食品/营养补充",
+            "粮油调味速食"
+          ],
+          "cross_cat_count": 4
+        },
+        {
+          "ingredient": "红豆",
+          "total_gmv": 1248566.9,
+          "sku_count": 6,
+          "appears_in_cats": [
+            "休闲食品",
+            "传统滋补",
+            "粮油调味速食"
+          ],
+          "cross_cat_count": 3
+        },
+        {
+          "ingredient": "芒果",
+          "total_gmv": 211082.3,
+          "sku_count": 1,
+          "appears_in_cats": [
+            "休闲食品"
+          ],
+          "cross_cat_count": 1
+        },
+        {
+          "ingredient": "紫薯",
+          "total_gmv": 188614.2,
+          "sku_count": 4,
+          "appears_in_cats": [
+            "休闲食品",
+            "宠物生活"
+          ],
+          "cross_cat_count": 2
+        },
+        {
+          "ingredient": "桃胶",
+          "total_gmv": 175619.7,
+          "sku_count": 1,
+          "appears_in_cats": [
+            "传统滋补"
+          ],
+          "cross_cat_count": 1
+        },
+        {
+          "ingredient": "薏米",
+          "total_gmv": 165815.5,
+          "sku_count": 2,
+          "appears_in_cats": [
+            "传统滋补"
+          ],
+          "cross_cat_count": 1
+        },
+        {
+          "ingredient": "绿豆",
+          "total_gmv": 92709.3,
+          "sku_count": 3,
+          "appears_in_cats": [
+            "粮油调味速食",
+            "酒类"
+          ],
+          "cross_cat_count": 2
+        }
+      ]
+    },
+    "selling_point": {
+      "top_selling_points": [
+        {
+          "selling_point": "即食方便",
+          "total_gmv": 316421177.66,
+          "sku_count": 464
+        },
+        {
+          "selling_point": "有机无添加",
+          "total_gmv": 213719958.81,
+          "sku_count": 419
+        },
+        {
+          "selling_point": "进口",
+          "total_gmv": 205644624.28,
+          "sku_count": 412
+        },
+        {
+          "selling_point": "冷链配送",
+          "total_gmv": 185688545.2,
+          "sku_count": 456
+        },
+        {
+          "selling_point": "新鲜",
+          "total_gmv": 164595964.24,
+          "sku_count": 485
+        },
+        {
+          "selling_point": "古法手工",
+          "total_gmv": 135237161.0,
+          "sku_count": 399
+        },
+        {
+          "selling_point": "地理标志",
+          "total_gmv": 126897067.77,
+          "sku_count": 347
+        },
+        {
+          "selling_point": "高蛋白低脂",
+          "total_gmv": 107956442.44,
+          "sku_count": 254
+        },
+        {
+          "selling_point": "散养野生",
+          "total_gmv": 93193159.08,
+          "sku_count": 276
+        },
+        {
+          "selling_point": "产地直发",
+          "total_gmv": 68763370.73,
+          "sku_count": 226
+        },
+        {
+          "selling_point": "顺丰包邮",
+          "total_gmv": 51972086.32,
+          "sku_count": 119
+        },
+        {
+          "selling_point": "联名IP",
+          "total_gmv": 32624606.45,
+          "sku_count": 83
+        },
+        {
+          "selling_point": "大牌平替",
+          "total_gmv": 23054182.61,
+          "sku_count": 75
+        }
+      ]
+    },
+    "brand_concentration": {
+      "酒类": {
+        "top5": [
+          {
+            "brand": "茅台",
+            "gmv": 181206221.5,
+            "share": 53.6
+          },
+          {
+            "brand": "国台",
+            "gmv": 20438478.0,
+            "share": 6.0
+          },
+          {
+            "brand": "五粮液",
+            "gmv": 11273139.5,
+            "share": 3.3
+          },
+          {
+            "brand": "2021年产",
+            "gmv": 7510776.0,
+            "share": 2.2
+          },
+          {
+            "brand": "国鼎欧根纱",
+            "gmv": 6544541.4,
+            "share": 1.9
+          }
+        ],
+        "top5_share": 67.1,
+        "brand_count": 452
+      },
+      "传统滋补": {
+        "top5": [
+          {
+            "brand": "百年堂",
+            "gmv": 5431160.5,
+            "share": 4.5
+          },
+          {
+            "brand": "九蒸九晒黄精",
+            "gmv": 5028464.0,
+            "share": 4.1
+          },
+          {
+            "brand": "神农金康",
+            "gmv": 4582370.39,
+            "share": 3.8
+          },
+          {
+            "brand": "喜纯黄精五黑膏",
+            "gmv": 4255154.16,
+            "share": 3.5
+          },
+          {
+            "brand": "悠悠燕耳",
+            "gmv": 3783443.4,
+            "share": 3.1
+          }
+        ],
+        "top5_share": 18.9,
+        "brand_count": 171
+      },
+      "生鲜": {
+        "top5": [
+          {
+            "brand": "活蟹",
+            "gmv": 5611133.1,
+            "share": 4.1
+          },
+          {
+            "brand": "肥肥优选",
+            "gmv": 5342785.6,
+            "share": 3.9
+          },
+          {
+            "brand": "干仓陈化7年",
+            "gmv": 4155744.5,
+            "share": 3.1
+          },
+          {
+            "brand": "净重280g/盒",
+            "gmv": 3270650.12,
+            "share": 2.4
+          },
+          {
+            "brand": "如意三宝",
+            "gmv": 3044995.0,
+            "share": 2.2
+          }
+        ],
+        "top5_share": 15.8,
+        "brand_count": 300
+      },
+      "休闲食品": {
+        "top5": [
+          {
+            "brand": "康师傅",
+            "gmv": 8411627.4,
+            "share": 7.6
+          },
+          {
+            "brand": "干仓陈化7年",
+            "gmv": 4643761.5,
+            "share": 4.2
+          },
+          {
+            "brand": "口口爆汁",
+            "gmv": 4414003.0,
+            "share": 4.0
+          },
+          {
+            "brand": "Swiss",
+            "gmv": 3296497.9,
+            "share": 3.0
+          },
+          {
+            "brand": "发11包",
+            "gmv": 3107265.0,
+            "share": 2.8
+          }
+        ],
+        "top5_share": 21.7,
+        "brand_count": 233
+      },
+      "保健食品/营养补充": {
+        "top5": [
+          {
+            "brand": "诺特兰德",
+            "gmv": 46333544.38,
+            "share": 28.9
+          },
+          {
+            "brand": "刘涛代言",
+            "gmv": 13709447.0,
+            "share": 8.6
+          },
+          {
+            "brand": "贾冰推荐",
+            "gmv": 11343512.3,
+            "share": 7.1
+          },
+          {
+            "brand": "林诺德",
+            "gmv": 9116546.0,
+            "share": 5.7
+          },
+          {
+            "brand": "五个女博士",
+            "gmv": 5661127.8,
+            "share": 3.5
+          }
+        ],
+        "top5_share": 53.7,
+        "brand_count": 412
+      },
+      "饮料冲调": {
+        "top5": [
+          {
+            "brand": "康新牧场",
+            "gmv": 9912562.9,
+            "share": 9.3
+          },
+          {
+            "brand": "双12狂欢",
+            "gmv": 8570458.6,
+            "share": 8.0
+          },
+          {
+            "brand": "两个月量升级肽",
+            "gmv": 7343895.0,
+            "share": 6.9
+          },
+          {
+            "brand": "国产",
+            "gmv": 5843162.6,
+            "share": 5.5
+          },
+          {
+            "brand": "可选海绵宝宝联名",
+            "gmv": 4237879.6,
+            "share": 4.0
+          }
+        ],
+        "top5_share": 33.6,
+        "brand_count": 148
+      },
+      "粮油调味速食": {
+        "top5": [
+          {
+            "brand": "福月德",
+            "gmv": 11067869.9,
+            "share": 5.5
+          },
+          {
+            "brand": "4盒装",
+            "gmv": 8500418.1,
+            "share": 4.3
+          },
+          {
+            "brand": "开学季狂欢购",
+            "gmv": 7406174.1,
+            "share": 3.7
+          },
+          {
+            "brand": "囤货活动推荐",
+            "gmv": 3985861.65,
+            "share": 2.0
+          },
+          {
+            "brand": "瑞士Swiss",
+            "gmv": 3585399.4,
+            "share": 1.8
+          }
+        ],
+        "top5_share": 17.3,
+        "brand_count": 338
+      },
+      "乳品冷饮": {
+        "top5": [
+          {
+            "brand": "认养一头牛",
+            "gmv": 13387958.1,
+            "share": 13.1
+          },
+          {
+            "brand": "蒙牛",
+            "gmv": 12545083.0,
+            "share": 12.3
+          },
+          {
+            "brand": "官方正品",
+            "gmv": 9539658.4,
+            "share": 9.4
+          },
+          {
+            "brand": "澳大利亚进口",
+            "gmv": 5542735.1,
+            "share": 5.4
+          },
+          {
+            "brand": "开学季",
+            "gmv": 4037176.0,
+            "share": 4.0
+          }
+        ],
+        "top5_share": 44.2,
+        "brand_count": 108
+      },
+      "茗茶": {
+        "top5": [
+          {
+            "brand": "白大师",
+            "gmv": 3035304.0,
+            "share": 40.0
+          },
+          {
+            "brand": "八马茶业",
+            "gmv": 528262.0,
+            "share": 7.0
+          },
+          {
+            "brand": "镇店之宝",
+            "gmv": 523266.0,
+            "share": 6.9
+          },
+          {
+            "brand": "冬藏·福韵",
+            "gmv": 475345.8,
+            "share": 6.3
+          },
+          {
+            "brand": "绿色食品认证",
+            "gmv": 405672.6,
+            "share": 5.4
+          }
+        ],
+        "top5_share": 65.5,
+        "brand_count": 28
+      },
+      "宠物生活": {
+        "top5": [
+          {
+            "brand": "小锋小志D系列",
+            "gmv": 2700918.6,
+            "share": 16.3
+          },
+          {
+            "brand": "卫仕爆爆桶囤货装",
+            "gmv": 1552609.46,
+            "share": 9.4
+          },
+          {
+            "brand": "温和排毛3.0",
+            "gmv": 1059563.0,
+            "share": 6.4
+          },
+          {
+            "brand": "猫饭",
+            "gmv": 933283.8,
+            "share": 5.6
+          },
+          {
+            "brand": "麦富迪",
+            "gmv": 878782.53,
+            "share": 5.3
+          }
+        ],
+        "top5_share": 43.0,
+        "brand_count": 241
+      }
+    }
+  },
+  "deep_insights": {
+    "粮油调味速食": {
+      "核心洞察": "Q4 最大结构性变化品类：从 Q3 第 8 跃升 Q4 第 1，¥5.22亿 / 19.1% 大盘。卤味熟食 4081w / 57 SKU、腊味腊肠 742w / 23 SKU、酱牛肉/酱驴肉/扒鸡矩阵，再叠加自热饭/方便面/火锅料，复合驱动年货+一人食+冬季懒人厨房三场景",
+      "品类品线": {
+        "title": "卤味腊味+方便速食+复合调味料三线齐发",
+        "points": [
+          "酱卤熟食 4081w / 57 SKU：康新牧场酱牛肉 960w（开袋即食代餐）、酱驴肉 779w、五香扒鸡 393w 矩阵",
+          "腊味年货 742w / 23 SKU：广式腊味+湖南腊味+果木熏 三派，黄三爷/家湘见 是腊肠 TOP 品牌",
+          "方便速食：康师傅方便面 841w、自热饭/拌饭/速食拉面 复合驱动",
+          "复合调味料：火锅底料/牛肉酱/拌饭酱 长尾增量明显"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "年夜饭：腊味+卤味+冷冻速食半成品，12 月前 2 周爆发",
+          "一人食：即食/小份装/单包装 卤味爆款（卤鸭爪/凤爪/猪耳/卤蛋）",
+          "冬季懒人厨房：自热饭/方便面/速食面/冷冻速食 全年高频"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "开袋即食 是 Q4 第一卖点词，覆盖 464 SKU / 3.16亿 GMV",
+          "地方特产/老字号 是腊味溢价核心（湖南腊味/广式烧腊/德州扒鸡）",
+          "冷链冷冻 是冬季速食信任门槛"
+        ]
+      }
+    },
+    "酒类": {
+      "核心洞察": "茅台一家独大：单品牌 ¥1.85亿 占酒类 53.6%，占总盘 6.7%。TOP5 集中度 67%，但品牌数 452 个，长尾极散。Q4 是酒类一年中最大节令窗口（双11+年货+春节预备），整体 ¥4.53亿 / 1902 SKU",
+      "品类品线": {
+        "title": "茅台 + 酱酒 + 礼盒装三线",
+        "points": [
+          "茅台 1.85亿 / 211 SKU：53 度飞天 + 1935 + 王子酒 + 茅台礼盒装 全矩阵",
+          "国台 2044w / 五粮液 1127w / 2021年产 751w 第二梯队",
+          "酒类礼盒/年份酒/原箱 是双11后期主战场，11 月预售 / 12 月年货爆发",
+          "果酒/养生酒/人参枸杞酒 等差异化品类约 5000w 体量"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "送礼：礼盒装+原箱+品牌官方旗舰 是核心场景",
+          "商务宴请：53 度酱香+年份酒 高客单",
+          "囤货过年：12 月集中爆发，物流前置 是关键"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "品牌官方+原箱+年份 是消费者唯一信任锚",
+          "非头部酒商必走「地理标志酒」「节令限定」「定制款」差异化",
+          "果酒/养生酒 单独形成小赛道，主打女性/养生人群"
+        ]
+      }
+    },
+    "生鲜": {
+      "核心洞察": "年货筹备季驱动 ¥3.85亿 / 1094 SKU。海鲜礼盒+广式茶点+南方水果（蜜桔/柚/柿饼）+冷冻速食半成品（虾饺/蛋饺/八宝饭/春卷）四主力。从 Q3 暑期的 80% 占比回归到 14%，是结构性正常化",
+      "品类品线": {
+        "title": "海鲜年货 + 广式茶点 + 南方时令水果",
+        "points": [
+          "海鲜：北极红极参 2162w（即食滋补海参）、酒香海鲈鱼 304w、罗氏虾/野生海洋虾/海兔/籽乌 多品爆发",
+          "广式茶点：水晶虾饺 1491w（春季狂欢同款）、黄金蛋饺 526w、肠粉皇 285w、笋丁荠菜卷 654w",
+          "南方时令水果：富平流心冰柿、文旦柚、涌泉蜜桔、融安金桔",
+          "年货熟食半成品：八宝饭 102w（5 SKU）、刀板香 596w、姜母鸭 499w、五丰直胴骨/小排"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "年夜饭：海鲜+广式茶点+冷冻速食 三件套，12 月集中爆发",
+          "送礼：海鲜礼盒/水果礼盒 高客单",
+          "煲汤：散养黑猪筒骨/老鸭/羊蝎子 进补暖冬延续"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "冷链冷冻 是生鲜信任门槛（456 SKU / 1.86亿）",
+          "地理标志/老字号 溢价（融安金桔/陕西富平柿饼/广式茶点）",
+          "顺丰直发 是高端品标配"
+        ]
+      }
+    },
+    "传统滋补": {
+      "核心洞察": "进补暖冬主战场 ¥3.52亿 / 578 SKU。黄精+海参+驼奶三件套合计 1.37亿，立冬→大雪→冬至 节令窗口被验证。九蒸九晒工艺+即食化形态+小分子吸收 是三个关键工艺词",
+      "品类品线": {
+        "title": "黄精 / 海参 / 燕窝 / 花胶 / 西洋参 五原料齐爆",
+        "points": [
+          "黄精+膏方 4776w / 41 SKU：九蒸九晒黄精 502w、喜纯黄精五黑膏 425w、五宝粉 716w（中老年场景）",
+          "即食海参 4597w / 38 SKU：北极即食红极参 2162w（独立包装单品）领跑",
+          "燕窝/花胶：百年堂 543w 领跑燕窝赛道",
+          "西洋参/人参：户小亚西洋参 308w + 人参枸杞酒系列 1281w（虽分到酒类但属同一养生心智）",
+          "枸杞：宁夏中宁产地直发，单价低但 SKU 多"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "煲汤：黄精/西洋参/花胶/虫草 中老年高频场景",
+          "送父母：礼盒装+原产地证书 高客单",
+          "气血同补：女性向 燕窝/花胶/桃胶/银耳 矩阵"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "九蒸九晒 是黄精赛道关键词",
+          "即食化 是海参/燕窝的形态升级",
+          "小分子吸收 是肽类/胶原蛋白话术",
+          "原产地证书+地理标志（宁夏枸杞/长白山人参/新会陈皮）是溢价基础"
+        ]
+      }
+    },
+    "保健食品/营养补充": {
+      "核心洞察": "乳酸菌+虾青素双引擎驱动 ¥3.16亿 / 2004 SKU。万益蓝乳酸菌 5219w 领跑，五个女博士虾青素 1255w 接力，叶黄素酯/蛋白质粉/复合维生素 矩阵化布局。功能性补剂赛道已进入大单品时代",
+      "品类品线": {
+        "title": "乳酸菌 / 虾青素 / 蛋白质粉 / 叶黄素四大爆款赛道",
+        "points": [
+          "乳酸菌益生菌 1.11亿 / 406 SKU：万益蓝早B晚S 5219w、呜咔实验室棕色脂肪 1134w（贾冰推荐）、华大营养优美达 系列 4 品牌矩阵",
+          "虾青素 3912w / 121 SKU：五个女博士 FIVEDOCTORS 1255w 单 SKU 爆款",
+          "复合蛋白质粉 431w / 73 SKU：奈氏力斯新西兰双重蛋白 多 SKU 长尾爆款",
+          "叶黄素酯 1393w / 88 SKU：华北制药叶黄素酯液态升级版 多 SKU 矩阵",
+          "钙铁锌液体钙：诺特兰德 VD 钙铁锌 1152w 单品爆款",
+          "氨基丁酸/胶原蛋白肽：林诺德 864w（买8送16促销）"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "日常补充：女性向乳酸菌+虾青素+叶黄素酯 高频回购",
+          "健身：复合蛋白质粉+肌酸+乳清蛋白 男性主力",
+          "中老年补钙：液体钙/钙铁锌/壮骨粉 大单品",
+          "送父母：礼盒装+原箱囤货 信任门槛"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "大单品 SKU 策略 是新进入者必跟（万益蓝 80/120 瓶大小周期）",
+          "明确功能定位（脂肪/睡眠/口腔/护眼）比泛保健更值得押",
+          "明星/达人推荐 是当下转化关键（贾冰、达人专属机制）",
+          "买X送Y / 累计销售X亿 是话术爆款公式"
+        ]
+      }
+    },
+    "休闲食品": {
+      "核心洞察": "古树茶+圣诞礼盒+红松籽 ¥2.54亿 / 765 SKU。刀刃严选古树生茶/熟茶 1953w 形成新爆款矩阵，云南古树茶赛道进入大单品时代。德芙圣诞礼盒（421w）+ 红松籽（1704w）是节令双爆点",
+      "品类品线": {
+        "title": "古树茶饼 + 节令礼盒 + 年货坚果干果",
+        "points": [
+          "古树茶 1953w / 12 SKU：刀刃严选生茶散料 1260w、生茶饼 + 熟茶饼 + 普洱 矩阵",
+          "节令礼盒 421w / 9 SKU：德芙圣诞树心语+雪之吻+橙意倒数+拉斐尔椰蓉扁桃仁酥球",
+          "年货坚果干果 6747w / 145 SKU：东北红松籽 1704w、富平流心冰柿 + 桃干 + 蜜桔",
+          "腌腊年货补充：扒鸡/酱驴肉/腊味（已部分迁入粮油速食类）"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "送礼：圣诞节+元旦+春节预备 礼盒爆发",
+          "下午茶：古树茶+巧克力+饼干 高客单消费",
+          "年货囤货：坚果+干果+蜜饯 12 月集中爆发"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "高端化 + 礼盒化 是 Q4 休闲食品主战场",
+          "古树/年份/原产地（云南/陕西/东北）是核心溢价词",
+          "节令限定（圣诞/年货/春节）是新爆款触发器"
+        ]
+      }
+    },
+    "饮料冲调": {
+      "核心洞察": "豆浆+芝麻糊+早餐冲调赛道 ¥2.09亿 / 479 SKU。永和豆浆粉 1271w + 南方黑芝麻糊 857w 是冬季早餐 + 滋补冲调 双场景的代表大单品",
+      "品类品线": {
+        "title": "豆浆 / 芝麻糊 / 速溶咖啡 / 杯装奶茶",
+        "points": [
+          "豆浆赛道：永和经典原味 1271w（早餐心智）",
+          "芝麻糊赛道：南方黑芝麻糊（原味/无糖）857w（双12狂欢爆款）",
+          "代餐冲调：A3 领纤 YUINYOES 蔓越莓+青提 多 SKU 矩阵（女性向）",
+          "速溶咖啡/杯装奶茶 长尾品类持续"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "冬季早餐：豆浆+芝麻糊 高频回购，11-2 月旺季",
+          "滋补冲调：黑芝麻糊+核桃粉+杏仁粉 中老年场景",
+          "代餐：女性减脂/抗衰 多 SKU 长尾"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "早餐心智 是豆浆/芝麻糊 持续增长基础",
+          "0添加/无糖 是冬季冲调升级方向",
+          "双12/双11 大促敏感度高"
+        ]
+      }
+    },
+    "乳品冷饮": {
+      "核心洞察": "驼奶/羊奶高端替代 + 蒙牛配方奶 ¥2.01亿 / 368 SKU。Symbiotics 进口羊奶（755w）+ 新疆优驼驼乳粉（736w）+ 蒙牛一米八八儿童奶粉（961w）形成『高 GI 替代/敏感人群/中老年/儿童』四线",
+      "品类品线": {
+        "title": "驼奶 / 羊奶 / 配方奶粉 / 高端鲜奶",
+        "points": [
+          "驼乳粉/羊奶粉 4372w / 35 SKU：高端替代核心增量品",
+          "蒙牛一米八八儿童成长高钙配方奶粉 961w：CBP+乳铁蛋白+叶黄素 多功能",
+          "Symbiotics 升倍羊奶粉 755w：新西兰银蕨认证 是关键信任词",
+          "酸奶/低温奶 长尾"
+        ]
+      },
+      "场景与功效": {
+        "highlights": [
+          "中老年补钙：高 GI 替代 是核心痛点",
+          "儿童成长：钙+乳铁蛋白+叶黄素 多功能配方",
+          "敏感人群：羊奶/驼奶 替代牛奶过敏"
+        ]
+      },
+      "关键卖点": {
+        "points": [
+          "原产地认证（新西兰银蕨/新疆优驼）是溢价基础",
+          "功能性配方（CBP/乳铁蛋白/叶黄素）是儿童奶粉标配",
+          "礼盒装+原箱囤货 是中老年场景关键"
+        ]
+      }
+    }
+  }
+}
